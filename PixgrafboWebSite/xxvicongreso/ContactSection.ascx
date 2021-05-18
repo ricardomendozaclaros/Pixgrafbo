@@ -14,21 +14,25 @@
                             <li><i class="fa fa-calendar"></i><span>Lunes - Viernes:</span> 9:30 AM to 6:30 PM</li>
                         </ul>
                         <ul>
-                            <li><i class="fa fa-map-marker"></i><span>Direccion:</span> 123 Some Street , London, UK, CP 123</li>
+                            <li><i class="fa fa-map-marker"></i><span>Direccion:</span>Oficina Edificio “JAQUE”, Av. America E-0435 3er Piso Of. 9
+Cochabamba - Bolivia</li>
                         </ul>
                         <ul>
-                            <li><i class="fa fa-phone"></i><span>Telefono:</span> (032) 987-1235</li>
+                            <li><i class="fa fa-phone"></i><span>Telefono:</span> (591) 445-1591</li>
                         </ul>
                         <ul>
-                            <li><i class="fa fa-fax"></i><span>Fax:</span> (123) 984-1234</li>
+                            <li><i class="fa fa-fax"></i><span>Fax:</span> (591) 454-329</li>
                         </ul>
                         <ul>
-                            <li><i class="fa fa-envelope"></i><span>Email:</span> info@doctor.com</li>
+                            <li><i class="fa fa-envelope"></i><span>Email: </span>sbardcochabamba120@gmail.com </li>
+                        </ul>
+                         <ul>
+                            <li><i class="fa fa-cloud"></i><span>WebSite: </span><a style="color:#ffffff" href=">http://www.sbard.org.bo">http://www.sbard.org.bo</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-1 contact-form">
-                    <h3>leave us a message</h3>
+                    <h3>Envianos un mensaje</h3>
 
                     <form class="form">
                         <input class="name" type="text" placeholder="Nombre completo">

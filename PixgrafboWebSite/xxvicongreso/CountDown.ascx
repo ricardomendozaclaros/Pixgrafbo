@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CountDown.ascx.cs" Inherits="WebApplication1.xxvicongreso.CountDown" %>
 <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("May 30, 2021 15:37:25").getTime();
+    var countDownDate = new Date("Jun 07, 2021 08:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -75,8 +75,13 @@
 </style>
 <section>
     <div class="container">
+        <div class="row" style="text-align:center">
+            <h3>Del 7 al 9 de julio del 2021</h3>
+        </div>
+    </div>
+    <div class="container">
         <div class="col-md-1">
-            &nbsp;
+            
         </div>
         <div class="col-md-10">
             <div class="cd-box">
