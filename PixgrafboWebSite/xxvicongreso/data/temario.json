@@ -1,0 +1,35 @@
+{
+  "Temario": [
+    {
+      "id": 1,
+      "tema": "Vía aérea difícil",
+      "descripcion": "",
+      "Expositor": ""
+    },
+    {
+      "id": 2,
+      "tema": "Ventilación mecánica",
+      "descripcion": "",
+      "Expositor": ""
+    },
+    {
+      "id": 3,
+      "tema": "Simuladores en anestesia",
+      "descripcion": "",
+      "Expositor": ""
+    },
+    {
+      "id": 4,
+      "tema": "Bioeticz",
+      "descripcion": "",
+      "Expositor": ""
+    },
+    {
+      "id": 5,
+      "tema": "USG en niños y adultos",
+      "descripcion": "",
+      "Expositor": ""
+    }
+  ]
+  }
+}

@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.xxvicongreso.Site1" %>
+
+<%@ Register Src="~/xxvicongreso/TopHeader.ascx" TagPrefix="uc1" TagName="TopHeader" %>
+<%@ Register Src="~/xxvicongreso/Slider.ascx" TagPrefix="uc1" TagName="Slider" %>
+<%@ Register Src="~/xxvicongreso/About.ascx" TagPrefix="uc1" TagName="About" %>
+<%@ Register Src="~/xxvicongreso/Services.ascx" TagPrefix="uc1" TagName="Services" %>
+<%@ Register Src="~/xxvicongreso/ContactSection.ascx" TagPrefix="uc1" TagName="ContactSection" %>
+<%@ Register Src="~/xxvicongreso/MapSection.ascx" TagPrefix="uc1" TagName="MapSection" %>
+<%@ Register Src="~/xxvicongreso/TeamSection.ascx" TagPrefix="uc1" TagName="TeamSection" %>
+<%@ Register Src="~/xxvicongreso/FooterSection.ascx" TagPrefix="uc1" TagName="FooterSection" %>
+<%@ Register Src="~/xxvicongreso/CountDown.ascx" TagPrefix="uc1" TagName="CountDown" %>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>XXVI Congreso boliviano de anestesiologia</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr.js"></script>
+	<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+	<!-- ====================================================
+	header section -->
+	<uc1:TopHeader runat="server" id="TopHeader" />
+	<!-- end of header area -->
+
+	<!-- ====================================================
+	slider section -->
+	<uc1:Slider runat="server" id="Slider" />
+	<!-- end of slider section -->
+
+
+	<!-- CountDown section -->
+    <uc1:CountDown runat="server" id="CountDown" />
+	<!-- end of CountDown section -->
+
+
+	<!-- about section -->
+    <uc1:About runat="server" id="About" />
+	<!-- end of about section -->
+
+
+	<!-- service section starts here -->
+	<uc1:Services runat="server" id="Services" />
+	<!-- end of service section -->
+
+
+	<!-- team section -->
+    <uc1:TeamSection runat="server" id="TeamSection" />
+	<!-- end of team section -->
+
+	<!-- map section -->
+    <uc1:MapSection runat="server" id="MapSection" />
+	<!-- end of map section -->
+
+	<!-- contact section starts here -->
+    <uc1:ContactSection runat="server" id="ContactSection" />
+	<!-- end of contact section -->
+
+	<!-- footer starts here -->
+	<uc1:FooterSection runat="server" id="FooterSection" />
+	<!-- script tags
+	============================================================= -->
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+
+    <form id="form1" runat="server">
+      
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+     </form>
+</body>
+</html>
