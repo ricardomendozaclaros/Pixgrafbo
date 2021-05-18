@@ -3,12 +3,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-6 footer-para">
-					<p>Pixgrafbo Estudio Creativo</p>
+					<p>Pixgraf  Estudio Creativo</p>
 				</div>
 				<div class="col-xs-6 text-right">
-					<a href=""><i class="fa fa-facebook"></i></a>
-					<a href=""><i class="fa fa-twitter"></i></a>
-					<a href=""><i class="fa fa-skype"></i></a>
+					<a href="https://www.facebook.com/pixgrafestudiocreativo"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/pixgraf_bo/"><i class="fa fa-instagram"></i></a>
+					<a href="https://api.whatsapp.com/send/?phone=59162673213&text&app_absent=0"><i class="fa fa-whatsapp"></i></a>
 				</div>
 			</div>
 		</div>
