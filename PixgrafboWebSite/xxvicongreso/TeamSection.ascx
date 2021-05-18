@@ -73,6 +73,11 @@
                      <img src="img/Bolivia.gif"/>
                 </div>
             </div>
+
+           
+        </div>
+        <div class="row" style="text-align:center">
+           <img src="img/logo1.png" />
         </div>
     </div>
 </section>

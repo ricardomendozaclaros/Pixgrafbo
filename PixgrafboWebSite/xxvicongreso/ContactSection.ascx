@@ -2,6 +2,7 @@
 <section class="contact">
     <div class="container">
         <div class="row">
+            
             <div class="contact-caption clearfix">
                 <div class="contact-heading text-center">
                     <h2>Contactenos</h2>

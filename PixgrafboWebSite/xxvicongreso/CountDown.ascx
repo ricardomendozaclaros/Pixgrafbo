@@ -75,30 +75,36 @@
 </style>
 <section>
     <div class="container">
-
-        <div class="cd-box">
-            <p id="countdownDia" class="numbers hours">00</p>
-            <br>
-            <p class="strings timeRefHours">Días</p>
+        <div class="col-md-1">
+            &nbsp;
         </div>
+        <div class="col-md-10">
+            <div class="cd-box">
+                <p id="countdownDia" class="numbers hours">00</p>
+                <br>
+                <p class="strings timeRefHours">Días</p>
+            </div>
 
-        <div class="cd-box">
-            <p id="countdownHor" class="numbers hours">00</p>
-            <br>
-            <p class="strings timeRefHours">Horas</p>
+            <div class="cd-box">
+                <p id="countdownHor" class="numbers hours">00</p>
+                <br>
+                <p class="strings timeRefHours">Horas</p>
+            </div>
+
+            <div class="cd-box">
+                <p id="countdownMin" class="numbers hours">00</p>
+                <br>
+                <p class="strings timeRefHours">Minutos</p>
+            </div>
+
+            <div class="cd-box">
+                <p id="countdownSeg" class="numbers hours">00</p>
+                <br>
+                <p class="strings timeRefHours">Segundos</p>
+            </div>
         </div>
-
-        <div class="cd-box">
-            <p id="countdownMin" class="numbers hours">00</p>
-            <br>
-            <p class="strings timeRefHours">Minutos</p>
+        <div class="col-md-1">
+            &nbsp;
         </div>
-
-        <div class="cd-box">
-            <p id="countdownSeg" class="numbers hours">00</p>
-            <br>
-            <p class="strings timeRefHours">Segundos</p>
-        </div>
-
     </div>
 </section>

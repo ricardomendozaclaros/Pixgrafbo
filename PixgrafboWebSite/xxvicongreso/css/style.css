@@ -50,7 +50,7 @@ h2 {
 
 .top-header img.logo {
     margin-bottom: 25px;
-    margin-top: -15px;
+    margin-top: 15px;
     transition: all .5s ease 0s;
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;
@@ -84,7 +84,7 @@ ul.nav {
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-size: 22px;
+    font-size: 18px;
     color: #737373;
     text-transform: uppercase;
     transition: all .7s ease 0s;
@@ -213,7 +213,7 @@ li a.active {
 /*about area*/
 
 .about h2 {
-    font-size: 90px;
+    font-size: 70px;
     color: #42b3e5;
     margin-top: 50px;
 }
@@ -321,7 +321,7 @@ li a.active {
 }
 
     .service h2 {
-        font-size: 90px;
+        font-size: 70px;
         color: #fff;
         margin-top: 70px;
         margin-bottom: 0;
@@ -439,7 +439,7 @@ li a.active {
 }
 
     .team h2 {
-        font-size: 90px;
+        font-size: 70px;
         color: #42b3e5;
         margin-top: 50px;
         margin-bottom: 0;
@@ -541,7 +541,7 @@ li a.active {
 
 .contact-heading h2 {
     color: #fff;
-    font-size: 90px;
+    font-size: 70px;
 }
 
 .contact-info {
@@ -812,7 +812,7 @@ responsive area
     }
 
     .carousel-caption h1 {
-        font-size: 90px;
+        font-size: 70px;
     }
 
     .carousel-caption p {
