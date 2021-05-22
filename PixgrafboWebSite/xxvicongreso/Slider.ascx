@@ -1,13 +1,25 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Slider.ascx.cs" Inherits="WebApplication1.xxvicongreso.Slider" %>
+<style>
+video {
+  width: 100%;
+  height: 80%;
+}
+</style>
 <section class="slider" id="home">
     <div class="container-fluid">
         <div class="row">
             <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="header-backup"></div>
+                <video controls autoplay muted>
+                    <source src="media/bolivia.mp4" type="video/mp4"  />
+                </video>
+                <%--<div class="header-backup"></div>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/slide-one.jpg" alt="">
+                        <video width="200" height="800" controls>
+                           <source src="media/bolivia.mp4" type="video/mp4"  />
+                         </video>
+                         <img src="img/slide-one.jpg" alt="">
                         <div class="carousel-caption">
                             <h1>Monitoreo perioperatorio</h1>
                             <p>
@@ -59,7 +71,7 @@ para el manejo peroperatorio
                 <a class="right carousel-control" href="#carouselHacked" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Siguiente</span>
-                </a>
+                </a>--%>
             </div>
         </div>
     </div>

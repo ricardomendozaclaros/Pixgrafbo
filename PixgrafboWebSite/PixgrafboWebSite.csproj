@@ -209,6 +209,7 @@
     <Content Include="xxvicongreso\js\respond.min.js" />
     <Content Include="xxvicongreso\js\smoothscroll.js" />
     <Content Include="xxvicongreso\MapSection.ascx" />
+    <Content Include="xxvicongreso\media\bolivia.mp4" />
     <Content Include="xxvicongreso\Services.ascx" />
     <Content Include="xxvicongreso\Site1.Master" />
     <Content Include="xxvicongreso\Slider.ascx" />
