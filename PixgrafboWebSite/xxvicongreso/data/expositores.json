@@ -230,7 +230,7 @@
     "Resumen": ""
   },
   {
-    "ID": 23,
+    "ID": 24,
     "NombreCompleto": "Dra. Jordan",
     "Telefono": "",
     "Correo": "",
@@ -240,7 +240,7 @@
     "Resumen": ""
   },
   {
-    "ID": 23,
+    "ID": 25,
     "NombreCompleto": "Karla Salinas",
     "Telefono": "",
     "Correo": "",
@@ -250,7 +250,7 @@
     "Resumen": ""
   },
   {
-    "ID": 23,
+    "ID": 26,
     "NombreCompleto": "Regional SENSAR",
     "Telefono": "",
     "Correo": "",
@@ -258,6 +258,26 @@
     "Tema": "AVENTHO (VMNI, VMI)",
     "FechaHora": "19:00 – 19:30",
     "Resumen": ""
+  },
+  {
+    "ID": 27,
+    "NombreCompleto": "",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Temas Libres",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 28,
+    "NombreCompleto": "",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Temas Libres",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
   }
-  
+
 ]
