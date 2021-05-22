@@ -2,14 +2,14 @@
 <style>
 video {
   width: 100%;
-  height: 80%;
+  height: 60%;
 }
 </style>
 <section class="slider" id="home">
     <div class="container-fluid">
         <div class="row">
             <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
-                <video controls autoplay muted>
+                <video controls autoplay muted loop>
                     <source src="media/bolivia.mp4" type="video/mp4"  />
                 </video>
                 <%--<div class="header-backup"></div>

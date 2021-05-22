@@ -10,15 +10,6 @@
 <%@ Register Src="~/xxvicongreso/FooterSection.ascx" TagPrefix="uc1" TagName="FooterSection" %>
 <%@ Register Src="~/xxvicongreso/CountDown.ascx" TagPrefix="uc1" TagName="CountDown" %>
 
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 
 <html>

@@ -1,0 +1,263 @@
+[
+  {
+    "ID": 1,
+    "NombreCompleto": "Dr. Gabriel Mancera Elías",
+    "Telefono": "",
+    "Correo": "elimanga81medicina@gmail.com",
+    "Pais": "Mexico",
+    "Tema": "Emergencias en anestesia pediátrica",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 2,
+    "NombreCompleto": "Dr. Hugo Arturo Olmos P.",
+    "Telefono": "",
+    "Correo": "hugo.olmos@imss.gob.mx",
+    "Pais": "Mexico",
+    "Tema": "Anestesia regional en Pediatría",
+    "FechaHora": "19:30 – 20:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 3,
+    "NombreCompleto": "Dra. Nanci Esqueda Dorantes",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Mexico",
+    "Tema": "Colocación de catéter central en Pediatría con ultrasonido",
+    "FechaHora": "20:00 – 20:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 4,
+    "NombreCompleto": "Dr. Renato Moreno",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Peru",
+    "Tema": "Anestesia en Paciente Preeclamptica",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 5,
+    "NombreCompleto": "Dr. Pablo Santillán",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Ecuador",
+    "Tema": "Recomendaciones actuales en el uso de uterotónicos",
+    "FechaHora": "19:30 – 20:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 6,
+    "NombreCompleto": "Dr. Mauricio Vasco",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Colombia",
+    "Tema": "Protocolo ERAS en cirugía cesárea",
+    "FechaHora": "20:00 –20:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 7,
+    "NombreCompleto": "Dr. Milton Chango",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Ecuador",
+    "Tema": "Protocolo ERAS en cirugía cardiaca electiva: de la Teoría a la Practica.",
+    "FechaHora": "19:00 –19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 8,
+    "NombreCompleto": "Dra. Carolina Cabrera",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Chile",
+    "Tema": "Evaluación y manejo hemodinámico con ecocardiografía",
+    "FechaHora": "19:30 – 20:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 9,
+    "NombreCompleto": "Dra. Natalia Erazo",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Colombia",
+    "Tema": "Monitoreo hemodinámico invasivo para toma de decisiones",
+    "FechaHora": "20:00 – 20:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 10,
+    "NombreCompleto": "Dr. Erwing Seborga",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Bloqueo Supra e infraclavicular para cirugía de miembro superior",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 11,
+    "NombreCompleto": "Dr. Miguel Arratia",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Bloqueo PENG (Pericapsular Nerve Group) para cirugía de cadera",
+    "FechaHora": "19:30 – 20:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 12,
+    "NombreCompleto": "Dr. Johann Maldonado",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Bloqueo IPACK (Infiltration between popliteal Artery and capsule of the Knee) y canal aductor para cirugía de rodilla",
+    "FechaHora": "20:00 – 20:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 13,
+    "NombreCompleto": "Dr. Julio Ramos",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Bloqueo ESP (Erector spine block)",
+    "FechaHora": "20:30 –21:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 14,
+    "NombreCompleto": "Dra. Aline Nieto",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Mexico",
+    "Tema": "TIVA Manual",
+    "FechaHora": "19:00 –19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 15,
+    "NombreCompleto": "Dr. Juan Camilo",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Colombia",
+    "Tema": "TIVA y Uso de la app",
+    "FechaHora": "19:30 –20:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 16,
+    "NombreCompleto": "Dr. David Ramírez",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Colombia",
+    "Tema": "TIVA y Uso de la app",
+    "FechaHora": "20:00 – 20:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 17,
+    "NombreCompleto": "Dr. David Ramírez",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Colombia",
+    "Tema": "TIVA y Uso de la app",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 18,
+    "NombreCompleto": "Dr. Agustín Querejazu",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Trauma Pediatría",
+    "FechaHora": "19:30 – 20:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 19,
+    "NombreCompleto": "Dr. Alberto Laporte",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Chile",
+    "Tema": "Trauma Raquimedular",
+    "FechaHora": "20:00 – 20:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 20,
+    "NombreCompleto": "Dr. Jorge Molina",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Bloqueos para cirugía de mama y pared torácica (PECs Block)",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 21,
+    "NombreCompleto": "Dra Yovana Callisaya",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Bloqueo cuadrado lumbar (QL Block) vs Bloqueo de plexo lumbar",
+    "FechaHora": "19:30 – 20:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 22,
+    "NombreCompleto": "Dr. Carlos Urquidi",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Anestesia Regional aplicada al manejo de dolor agudo",
+    "FechaHora": "20:00 – 20:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 23,
+    "NombreCompleto": "Dra Patricia Caracila",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "Uso de coadyuvantes en Bloqueos nerviosos periféricos",
+    "FechaHora": "20:30 – 21:00",
+    "Resumen": ""
+  },
+  {
+    "ID": 23,
+    "NombreCompleto": "Dra. Jordan",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "TIVA \n SIMULACIONES ¿? (Dra. Jordan)",
+    "FechaHora": "19:00 –19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 23,
+    "NombreCompleto": "Karla Salinas",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "ARRITMIAS EN EL TRANSOPERATORIO",
+    "FechaHora": "19:00 –19:30",
+    "Resumen": ""
+  },
+  {
+    "ID": 23,
+    "NombreCompleto": "Regional SENSAR",
+    "Telefono": "",
+    "Correo": "",
+    "Pais": "Bolivia",
+    "Tema": "AVENTHO (VMNI, VMI)",
+    "FechaHora": "19:00 – 19:30",
+    "Resumen": ""
+  }
+  
+]

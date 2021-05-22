@@ -72,16 +72,36 @@
         -moz-box-shadow: 4px 6px 9px 1px rgba(53, 53, 53, 0.5);
         box-shadow: 4px 6px 9px 1px rgba(53, 53, 53, 0.5);
     }
+
+    .barrabandera{
+        width:150px;
+    }
 </style>
 <section>
     <div class="container">
-        <div class="row" style="text-align:center">
+        <div class="row" style="text-align: center">
+            <div class="col-md-11">
+                <img src="img/Bolivia.gif" class="barrabandera"/>
+            
+                <img src="img/Chile.gif" class="barrabandera"/>
+            
+                <img src="img/Colombia.gif"class="barrabandera" />
+            
+                <img src="img/Ecuador.gif"class="barrabandera" />
+            
+                <img src="img/Mexico.gif" class="barrabandera"/>
+            
+                <img src="img/Peru.gif" class="barrabandera"/>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="text-align: center">
             <h3>Del 7 al 9 de julio del 2021</h3>
         </div>
     </div>
     <div class="container">
         <div class="col-md-1">
-            
         </div>
         <div class="col-md-10">
             <div class="cd-box">

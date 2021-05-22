@@ -462,7 +462,7 @@ li a.active {
 }
 
 .person-detail {
-    padding: 10px;
+    padding: 15px;
     background: #3a9cc8;
     position: relative;
     transition: all .7s ease 0s;
@@ -513,16 +513,21 @@ li a.active {
 .person-detail h3 {
     font-size: 20px;
     color: #fff;
+    margin: 0 0 30px;
+    letter-spacing: 1px;
 }
 
 .person-detail p {
     font-size: 13px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+   
+    margin: 0 0 30px;
+    letter-spacing: 0px;
 }
 
 .single-member:hover .person-detail {
-    background: #2a2a2a;
+    background:#2a2a2a;
 }
 
 .single-member:hover .arrow-top {
