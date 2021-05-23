@@ -53,6 +53,7 @@
         font-weight: bold;
         font-size: 10pt;
     }
+
     .auto-style1 {
         font-size: 30pt;
     }
@@ -137,20 +138,13 @@
                         <asp:Literal ID="txt7_44" runat="server" />
                     </td>
                 </tr>
-            </table>
-            <br />
-            <table class="tg">
+
                 <tr>
-                    <th class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center" rowspan="5">
+                    <td rowspan="5" class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center" rowspan="5">
                         <div class="auto-style1">Jueves</div>
                         <div style="font-size: 100pt;">08</div>
                         <div style="font-size: 20pt;">Julio</div>
-                    </th>
-                    <th class="tg-0lax" style="width: 3%">Hora</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Lirios</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Orquidea</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Jazmin</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Girasol</th>
+                    </td>
                 </tr>
                 <tr>
                     <td class="tg-0lax" style="width: 3%">19:00 - 19:30</td>
@@ -199,7 +193,6 @@
                         <asp:Literal ID="txt8_34" runat="server" />
                     </td>
                 </tr>
-
                 <tr>
                     <td class="tg-0lax" style="width: 3%">20:30 - 21:30</td>
                     <td class="tg-0lax">
@@ -213,20 +206,12 @@
                         <asp:Literal ID="txt8_44" runat="server" />
                     </td>
                 </tr>
-            </table>
-            <br />
-            <table class="tg">
                 <tr>
-                    <th class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center" rowspan="5">
-                        <div class="auto-style1">Viernes</div>
-                        <div style="font-size: 100pt;">09</div>
+                    <td rowspan="3" class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center" rowspan="5">
+                        <div class="auto-style1">Jueves</div>
+                        <div style="font-size: 100pt;">08</div>
                         <div style="font-size: 20pt;">Julio</div>
-                    </th>
-                    <th class="tg-0lax" style="width: 3%">Hora</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Lirios</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Orquidea</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Jazmin</th>
-                    <th class="tg-0lax" style="width: 20%">Salon Girasol</th>
+                    </td>
                 </tr>
                 <tr>
                     <td class="tg-0lax" style="width: 3%">19:00 - 19:30</td>
