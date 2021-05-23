@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Text;
 using System.Web;
 
 namespace WebApplication1
@@ -11,6 +13,7 @@ namespace WebApplication1
     {
         public int ID { get; set; }
         public string NombreCompleto { get; set; }
+
         public string Telefono { get; set; }
         public string Correo { get; set; }
         public string Pais { get; set; }
@@ -20,14 +23,24 @@ namespace WebApplication1
 
         public static Expositor[] GetExpositores(string path)
         {
-            StreamReader r = new StreamReader( path + "/data/expositores.json");
-            
+            string filename = path + "/data/expositores.json";
+            StreamReader r = new StreamReader(filename, Encoding.Default, false);
             string jsonString = r.ReadToEnd();
-            jsonString = StringEncodingConvert(jsonString, "UTF-8", "iso-8859-1");
-            Expositor[] exps = JsonConvert.DeserializeObject<Expositor[]>(jsonString);
+            //jsonString = ConvertHtmlChar(jsonString);
+            JsonSerializerSettings settings = new JsonSerializerSettings 
+            { 
+                DefaultValueHandling = DefaultValueHandling.Include
+                //StringEscapeHandling = StringEscapeHandling.EscapeHtml 
+            };
+            Expositor[] exps = JsonConvert.DeserializeObject<Expositor[]>(jsonString, settings);
             return exps;
         }
-        
+
+        private static string ConvertHtmlChar(string cad)
+        {
+            return cad.Replace("á", "a").Replace("é", "e").Replace("í","i").Replace("ó","o").Replace("ú", "u");
+        }
+
         public static String StringEncodingConvert(String strText, String strSrcEncoding, String strDestEncoding)
         {
             System.Text.Encoding srcEnc = System.Text.Encoding.GetEncoding(strSrcEncoding);

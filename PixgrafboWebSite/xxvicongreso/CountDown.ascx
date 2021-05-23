@@ -97,7 +97,7 @@
     </div>
     <div class="container">
         <div class="row" style="text-align: center">
-            <h3>Del 7 al 9 de julio del 2021</h3>
+            <h3>Del 7 al 9 de julio del 2021 &#225;	&aacute; </h3>
         </div>
     </div>
     <div class="container">

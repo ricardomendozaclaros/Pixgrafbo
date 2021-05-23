@@ -49,7 +49,10 @@ namespace WebApplication1.xxvicongreso
                 
                
                 string item = (i % 2 == 0) ? itemA : itemB;
-                html += string.Format(item, exp.GetPhoto(Server.MapPath("")), exp.Pais, exp.NombreCompleto, exp.Tema);
+                html += string.Format(item, exp.GetPhoto(Server.MapPath("")),
+                    exp.Pais, 
+                    exp.NombreCompleto,
+                    HttpUtility.HtmlEncode(exp.Tema));
                 
                 i++;
                 if (i % 6 == 0)

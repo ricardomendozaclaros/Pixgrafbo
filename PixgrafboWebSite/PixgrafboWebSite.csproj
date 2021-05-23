@@ -187,6 +187,7 @@
     <Content Include="xxvicongreso\img\Jamaica.gif" />
     <Content Include="xxvicongreso\img\logo.png" />
     <Content Include="xxvicongreso\img\logo1.png" />
+    <Content Include="xxvicongreso\img\member0.jpg" />
     <Content Include="xxvicongreso\img\member1.jpg" />
     <Content Include="xxvicongreso\img\member2.jpg" />
     <Content Include="xxvicongreso\img\member3.jpg" />
@@ -273,6 +274,7 @@
     <Compile Include="xxvicongreso\MapSection.ascx.designer.cs">
       <DependentUpon>MapSection.ascx</DependentUpon>
     </Compile>
+    <Compile Include="xxvicongreso\ReadOnlySpan.cs" />
     <Compile Include="xxvicongreso\Services.ascx.cs">
       <DependentUpon>Services.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

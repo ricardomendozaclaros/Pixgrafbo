@@ -13,10 +13,8 @@ namespace WebApplication1.xxvicongreso
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-            StreamReader r = new StreamReader(Server.MapPath("") + "/data/expositores.json");
-            string jsonString = r.ReadToEnd();
-            Expositor[] exps = JsonConvert.DeserializeObject<Expositor[]>(jsonString);
+
+            Expositor[]  exps = Expositor.GetExpositores(Server.MapPath(""));
 
             txt7_11.Text = DrawCell(exps[0]);
             txt7_12.Text = DrawCell(exps[3]);
