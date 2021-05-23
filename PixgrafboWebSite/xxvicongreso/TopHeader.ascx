@@ -22,11 +22,11 @@
 					    <!-- Collect the nav links, forms, and other content for toggling -->
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a class="menu active" href="#home">Bienvenida</a></li>
-								<li><a class="menu" href="#service">Temario </a></li>
-								<li><a class="menu" href="#about">Expositores</a></li>
-								<li><a class="menu" href="#team">Calendario</a></li>
-								<li><a class="menu" href="#contact">Inscripciones</a></li>
+								<li><a class="menu active" href="#Bienvenida">Bienvenida</a></li>
+								<li><a class="menu" href="#Objetivos">Objetivos </a></li>
+								<li><a class="menu" href="#Calendario">Calendario</a></li>
+								<li><a class="menu" href="#Expositores">Expositores</a></li>
+								<li><a class="menu" href="#Contactenos">Contactenos</a></li>
 							</ul>
 					    </div><!-- /navbar-collapse -->
 					  </div><!-- / .container-fluid -->

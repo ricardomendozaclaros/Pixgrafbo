@@ -5,7 +5,7 @@ video {
   height: 60%;
 }
 </style>
-<section class="slider" id="home">
+<section class="slider">
     <div class="container-fluid">
         <div class="row">
             <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">

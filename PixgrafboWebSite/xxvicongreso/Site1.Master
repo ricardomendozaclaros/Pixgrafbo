@@ -86,7 +86,6 @@
 	<script src="js/custom.js"></script>
 
     <form id="form1" runat="server">
-      &aacute;&aacute;&aacute;&aacute;
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
      </form>

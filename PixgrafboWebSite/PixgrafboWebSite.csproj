@@ -173,6 +173,7 @@
     <Content Include="xxvicongreso\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="xxvicongreso\FooterSection.ascx" />
     <Content Include="xxvicongreso\img\Argentina.gif" />
+    <Content Include="xxvicongreso\img\bannerPrecios.jpg" />
     <Content Include="xxvicongreso\img\Bolivia.gif" />
     <Content Include="xxvicongreso\img\Brasil.gif" />
     <Content Include="xxvicongreso\img\btn-bg.jpg" />
@@ -198,6 +199,7 @@
     <Content Include="xxvicongreso\img\Paraguay.gif" />
     <Content Include="xxvicongreso\img\pattern.jpg" />
     <Content Include="xxvicongreso\img\Peru.gif" />
+    <Content Include="xxvicongreso\img\qrWhatapp.png" />
     <Content Include="xxvicongreso\img\SBARD.png" />
     <Content Include="xxvicongreso\img\service1.png" />
     <Content Include="xxvicongreso\img\service2.png" />

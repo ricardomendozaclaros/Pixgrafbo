@@ -59,17 +59,18 @@
     }
 </style>
 
-<section class="about text-center" style="background-color: #eeeeee">
+<section class="about text-center" style="background-color: #eeeeee" id="Calendario">
     <div class="container">
         <div class="row">
+            <br />
+            <br />
+            <br />
             <h2 style="font-size: 70px; color: #42b3e5; margin-top: 50px;">Calendario</h2>
 
             <table class="tg">
                 <tr>
-                    <th class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center" rowspan="5">
-                        <div style="font-size: 30pt;">Miercoles</div>
-                        <div style="font-size: 100pt;">07</div>
-                        <div style="font-size: 20pt;">Julio</div>
+                    <th class="tg-0lax" >
+                        Fecha
                     </th>
                     <th class="tg-0lax" style="width: 3%">Hora</th>
                     <th class="tg-0lax" style="width: 20%">Salon Lirios</th>
@@ -78,6 +79,11 @@
                     <th class="tg-0lax" style="width: 20%">Salon Girasol</th>
                 </tr>
                 <tr>
+                    <th class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center; width: 1%; vertical-align: middle; text-align: center; color:#3b3b3b" rowspan="4">
+                        <div style="font-size: 30pt;">Miercoles</div>
+                        <div style="font-size: 100pt;">07</div>
+                        <div style="font-size: 20pt;">Julio</div>
+                    </th>
                     <td class="tg-0lax" style="width: 3%">19:00 - 19:30</td>
                     <td class="tg-0lax">
                         <asp:Literal ID="txt7_11" runat="server" />
@@ -139,14 +145,13 @@
                     </td>
                 </tr>
 
-                <tr>
-                    <td rowspan="5" class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center" rowspan="5">
+                <tr style="background-color:whitesmoke;" >
+                    <th rowspan="4" class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center; color:#3b3b3b" rowspan="5">
                         <div class="auto-style1">Jueves</div>
                         <div style="font-size: 100pt;">08</div>
                         <div style="font-size: 20pt;">Julio</div>
-                    </td>
-                </tr>
-                <tr>
+                    </th>
+                
                     <td class="tg-0lax" style="width: 3%">19:00 - 19:30</td>
                     <td class="tg-0lax">
                         <asp:Literal ID="txt8_11" runat="server" />
@@ -162,7 +167,7 @@
                     </td>
                 </tr>
 
-                <tr>
+                <tr style="background-color:whitesmoke">
                     <td class="tg-0lax" style="width: 3%">19:30 - 20:00</td>
                     <td class="tg-0lax">
                         <asp:Literal ID="txt8_21" runat="server" />
@@ -178,7 +183,7 @@
                     </td>
                 </tr>
 
-                <tr>
+                <tr style="background-color:whitesmoke">
                     <td class="tg-0lax" style="width: 3%">20:00 - 20:30</td>
                     <td class="tg-0lax">
                         <asp:Literal ID="txt8_31" runat="server" />
@@ -193,7 +198,7 @@
                         <asp:Literal ID="txt8_34" runat="server" />
                     </td>
                 </tr>
-                <tr>
+                <tr style="background-color:whitesmoke">
                     <td class="tg-0lax" style="width: 3%">20:30 - 21:30</td>
                     <td class="tg-0lax">
                         <asp:Literal ID="txt8_41" runat="server" /></td>
@@ -206,14 +211,13 @@
                         <asp:Literal ID="txt8_44" runat="server" />
                     </td>
                 </tr>
+               
                 <tr>
-                    <td rowspan="3" class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center" rowspan="5">
-                        <div class="auto-style1">Jueves</div>
-                        <div style="font-size: 100pt;">08</div>
+                    <th rowspan="2" class="tg-0lax" style="width: 1%; vertical-align: middle; text-align: center; color:#3b3b3b" rowspan="5">
+                        <div class="auto-style1">Viernes</div>
+                        <div style="font-size: 100pt;">09</div>
                         <div style="font-size: 20pt;">Julio</div>
-                    </td>
-                </tr>
-                <tr>
+                    </th>
                     <td class="tg-0lax" style="width: 3%">19:00 - 19:30</td>
                     <td class="tg-0lax">
                         <asp:Literal ID="txt9_11" runat="server" />

@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ContactSection.ascx.cs" Inherits="WebApplication1.xxvicongreso.ContactSection" %>
-<section class="contact">
+<section class="contact" id="Contactenos">
     <div class="container">
         <div class="row">
             
@@ -33,16 +33,21 @@ Cochabamba - Bolivia</li>
                 </div>
                 <div class="col-md-6 col-md-offset-1 contact-form">
                     <h3>Envianos un mensaje</h3>
+                    
+                        <img src="img/qrWhatapp.png"  alt="59170774438  Quiero mas informacion sobre el XXVI Congreso nacional de Anestesiologia"/><br />
 
-                    <form class="form">
-                        <input class="name" type="text" placeholder="Nombre completo">
-                        <input class="email" type="email" placeholder="Email">
-                        <input class="phone" type="text" placeholder="Telefono Celular">
-                        <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Mensaje o consulta"></textarea>
-                        <input class="submit-btn" type="submit" value="Enviar">
-                    </form>
+                        <input class="submit-btn" type="submit" value="Inscribete" onclick="OpenFormInstripciones()">
+                    
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    function OpenFormInstripciones() {
+        var url = "https://forms.gle/FZohhebbUXHqNU1E9";
+        window.open(url, '_blank');
+       // onclick = " window.open('http://www.google.com', '_blank'); return false;"
+    }
+</script>

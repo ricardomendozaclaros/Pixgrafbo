@@ -1,7 +1,11 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="About.ascx.cs" Inherits="WebApplication1.xxvicongreso.About" %>
-<section class="about text-center" id="about">
+
+<section class="about text-center" id="Bienvenida">
     <div class="container">
         <div class="row">
+            <br />
+            <br />
+            <br />
             <h2>bienvenidos</h2>
             <h4 style="text-align: justify">SBARD es una iniciativa disruptiva en la educación continuada de Anestesiología. Permite que la información de alto nivel llegue a una gran cantidad de profesionales interesados ​​en mejorar su desempeño y conocimiento.<br />
                 <br />
@@ -12,8 +16,11 @@
             <img src="img/SBARD.png" />
         </div>
 
-        <div class="row">
-            <h2>Temario</h2>
+        <div class="row" id="Objetivos">
+            <br />
+            <br />
+            <br />
+            <h2>Objetivos</h2>
             <div class="col-md-4 col-sm-6">
                 <div class="single-about-detail clearfix">
                     <div class="about-img">
