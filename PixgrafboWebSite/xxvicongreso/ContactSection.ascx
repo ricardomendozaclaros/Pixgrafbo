@@ -14,7 +14,7 @@
                             <li><i class="fa fa-calendar"></i><span>Lunes - Viernes:</span> 9:30 AM to 6:30 PM</li>
                         </ul>
                         <ul>
-                            <li><i class="fa fa-map-marker"></i><span>Direccion:</span>Oficina Edificio “JAQUE”, Av. America E-0435 3er Piso Of. 9
+                            <li><i class="fa fa-map-marker"></i><span>Direccion:</span>Oficina Edificio JAQUE, Av. America E-0435 3er Piso Of. 9
 Cochabamba - Bolivia</li>
                         </ul>
                         <ul>

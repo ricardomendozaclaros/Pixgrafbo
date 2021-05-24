@@ -21,32 +21,29 @@ namespace WebApplication1
         public string FechaHora { get; set; }
         public string Resumen { get; set; }
 
-        public static Expositor[] GetExpositores(string path)
+        public static Expositor[] GetExpositores(string path, string resumen)
         {
             string filename = path + "/data/expositores.json";
             StreamReader r = new StreamReader(filename, Encoding.Default, false);
             string jsonString = r.ReadToEnd();
-            //jsonString = ConvertHtmlChar(jsonString);
             JsonSerializerSettings settings = new JsonSerializerSettings 
             { 
                 DefaultValueHandling = DefaultValueHandling.Include
-                //StringEscapeHandling = StringEscapeHandling.EscapeHtml 
             };
             Expositor[] exps = JsonConvert.DeserializeObject<Expositor[]>(jsonString, settings);
+            if (resumen != "*")
+            {
+                exps = Array.FindAll(exps, c => c.Resumen == resumen);
+            }
             return exps;
-        }
-
-        private static string ConvertHtmlChar(string cad)
-        {
-            return cad.Replace("á", "a").Replace("é", "e").Replace("í","i").Replace("ó","o").Replace("ú", "u");
         }
 
         public static String StringEncodingConvert(String strText, String strSrcEncoding, String strDestEncoding)
         {
-            System.Text.Encoding srcEnc = System.Text.Encoding.GetEncoding(strSrcEncoding);
-            System.Text.Encoding destEnc = System.Text.Encoding.GetEncoding(strDestEncoding);
+            Encoding srcEnc =  Encoding.GetEncoding(strSrcEncoding);
+            Encoding destEnc = Encoding.GetEncoding(strDestEncoding);
             byte[] bData = srcEnc.GetBytes(strText);
-            byte[] bResult = System.Text.Encoding.Convert(srcEnc, destEnc, bData);
+            byte[] bResult = Encoding.Convert(srcEnc, destEnc, bData);
             return destEnc.GetString(bResult);
         }
 

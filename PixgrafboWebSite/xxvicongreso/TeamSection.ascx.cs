@@ -41,7 +41,7 @@ namespace WebApplication1.xxvicongreso
                                  </div>
                             </div> ";
 
-            Expositor[] exps = Expositor.GetExpositores(Server.MapPath(""));
+            Expositor[] exps = Expositor.GetExpositores(Server.MapPath(""), "");
             
             int i = 0;
             foreach (var exp in exps)

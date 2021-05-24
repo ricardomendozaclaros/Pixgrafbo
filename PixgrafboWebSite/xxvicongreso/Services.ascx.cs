@@ -14,7 +14,7 @@ namespace WebApplication1.xxvicongreso
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            Expositor[]  exps = Expositor.GetExpositores(Server.MapPath(""));
+            Expositor[]  exps = Expositor.GetExpositores(Server.MapPath(""), "*");
 
             txt7_11.Text = DrawCell(exps[0]);
             txt7_12.Text = DrawCell(exps[3]);
@@ -71,8 +71,9 @@ namespace WebApplication1.xxvicongreso
         {
             string item = @"<p class='cssCurso'>{0}</p>
                             <img class='tg-imgExpositor' src='img/member{1}.jpg' />
+                            <img class='tg-imgBandera' src='img/{3}.gif' />
                             <p class='cssExpositor'>{2}</p>
-                            <img class='tg-imgBandera' src='img/{3}.gif' />";
+                            ";
 
             return string.Format(item, 
                 exp.Tema, 
