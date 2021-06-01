@@ -17,42 +17,46 @@ namespace WebApplication1.xxvicongreso
         protected void Page_Load(object sender, EventArgs e)
         {
             string html = string.Empty;
+            
             string itemA = @"<div class='col-md-2 single-member col-sm-4'>
                                 <div class='person'>
                                     <img class='img-responsive' src='img/member{0}.jpg'>
-                                    <img src = 'img/{1}.gif' class='bandera' style='width: 60px'/>
+                                    
                                 </div>
                                 <div class='person-detail'>
                                     <div class='arrow-bottom'></div>
+<img src = 'img/{1}.gif'  class='bandera' style='width: 45px'/>
                                     <h3>{2}</h3>
                                     <p>{3}</p>
+                                    <p>{4}</p>
                                 </div>
-                            </div>";
+                            </div></a>";
 
             string itemB = @"<div class='col-md-2 single-member col-sm-4'>
                                 <div class='person-detail'>
                                     <div class='arrow-top'></div>
+<img src = 'img/{1}.gif'  class='bandera' style='width: 45px'/>
                                     <h3>{2}</h3>
+ 
                                     <p>{3}</p>
+                                    <p>{4}</p>
                                 </div>
                                 <div class='person'>
                                      <img class='img-responsive' src='img/member{0}.jpg' >
-                                     <img src = 'img/{1}.gif'  class='bandera2' style='width: 60px'/>
                                  </div>
-                            </div> ";
+                            </div>";
 
-            Expositor[] exps = Expositor.GetExpositores(Server.MapPath(""), "");
+            Expositor[] exps = Expositor.GetExpositores(Server.MapPath(""), "No Expositor");
             
             int i = 0;
             foreach (var exp in exps)
             {
-                
-               
                 string item = (i % 2 == 0) ? itemA : itemB;
                 html += string.Format(item, exp.GetPhoto(Server.MapPath("")),
                     exp.Pais, 
                     exp.NombreCompleto,
-                    HttpUtility.HtmlEncode(exp.Tema));
+                    exp.Tema,
+                    exp.Resumen);
                 
                 i++;
                 if (i % 6 == 0)
@@ -64,6 +68,7 @@ namespace WebApplication1.xxvicongreso
             htmlExpositores.Text = html;
         }
 
+        
        
     }
 }

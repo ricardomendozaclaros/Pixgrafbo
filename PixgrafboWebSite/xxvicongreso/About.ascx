@@ -2,17 +2,24 @@
 
 <section class="about text-center" id="Bienvenida">
     <div class="container">
-        <div class="row">
+        <h4 class="row">
             <br />
             <br />
             <br />
             <h2>bienvenidos</h2>
-            <h4 style="text-align: justify">SBARD es una iniciativa disruptiva en la educación continuada de Anestesiología. Permite que la información de alto nivel llegue a una gran cantidad de profesionales interesados ​​en mejorar su desempeño y conocimiento.<br />
-                <br />
-                Nuestra misión es hacer factible la constante formación, motivar, desarrollar el pensamiento crítico, estimular el cuestionamiento a través de contenido relevante, permitiendo una mejor práctica anestésica en beneficio de los pacientes.<br />
-                <br />
+            <h4 style="text-align: justify">Viviendo nuevos desafíos</h4>
+            <h4 style="text-align: justify">Hemos querido llamar así a nuestro congreso nacional porque  es la realidad de la población mundial y de los médicos en especial.</h4>
 
-                ¡AnestesiaON proporciona un aprendizaje más que accesible, alaba la especialidad, además de motivar y estimular a los profesionales a estar en constante evolución, demostrando la capacidad de marcar la diferencia en el perioperatorio de los pacientes!</h4>
+            <h4 style="text-align: justify">Proponemos que este Congreso se constituya  en un espacio para el análisis y discusión de los temas presentes y de interés de los médicos anestesiólogos, generar conocimientos y rescatar las experiencias y saberes que serán de gran aplicabilidad en el día a día del acto médico anestésico y en concordancia con nuestras realidades, entre ellas, la virtualidad.</h4>
+
+            <h4 style="text-align: justify">Tradicionalmente se habla de formación médica continuada, centrada en cursos y congresos. Sin embargo el desarrollo tecnológico actual, impone la necesidad de utilizar las nuevas tecnologías de comunicación virtual e incorporar conocimientos y habilidades sociales y de gestión, focalizándose en las necesidades de cada médico y los aspectos prácticos del ejercicio profesional, para proyectarnos al siglo XXI en el que vivimos.</h4>
+
+            <h4 style="text-align: justify">Muchas gracias por su asistencia y bienvenidos Al XXVI Congreso Nacional de Anestesiología 2021.
+            </h4>
+            <h4 style="text-align: justify">Dra. Janett Jordan Crespo   <br />
+Presidente SBARD</h4>
+            
+
             <img src="img/SBARD.png" />
         </div>
 

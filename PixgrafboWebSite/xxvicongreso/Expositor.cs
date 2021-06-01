@@ -21,7 +21,7 @@ namespace WebApplication1
         public string FechaHora { get; set; }
         public string Resumen { get; set; }
 
-        public static Expositor[] GetExpositores(string path, string resumen)
+        public static Expositor[] GetExpositores(string path)
         {
             string filename = path + "/data/expositores.json";
             StreamReader r = new StreamReader(filename, Encoding.Default, false);
@@ -31,9 +31,15 @@ namespace WebApplication1
                 DefaultValueHandling = DefaultValueHandling.Include
             };
             Expositor[] exps = JsonConvert.DeserializeObject<Expositor[]>(jsonString, settings);
-            if (resumen != "*")
+            return exps;
+        }
+
+        public static Expositor[] GetExpositores(string path, string resumen)
+        {
+            Expositor[] exps = GetExpositores(path);
+            if (resumen.StartsWith("No Expositor"))
             {
-                exps = Array.FindAll(exps, c => c.Resumen == resumen);
+                exps = Array.FindAll(exps, c => c.Resumen != resumen);
             }
             return exps;
         }
@@ -49,7 +55,9 @@ namespace WebApplication1
 
         public string GetPhoto(string path) 
         {
-            if (File.Exists(path + "/member" + ID + ".jpg"))
+            string filename = string.Format("member{0}.jpg", ID);
+            string fullpath = Path.Combine(path, "img", filename);
+            if (File.Exists(fullpath))
             {
                 return ID.ToString();
             }
