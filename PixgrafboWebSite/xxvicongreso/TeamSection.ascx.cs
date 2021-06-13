@@ -20,7 +20,7 @@ namespace WebApplication1.xxvicongreso
             
             string itemA = @"<div class='col-md-2 single-member col-sm-4' onclick='Redirect({0})'>
                                   <div class='person'>
-                                    <img class='img-responsive' src='img/member{0}.jpg'>
+                                    <img class='img-responsive' src='img/member{4}.jpg'>
                                 </div>
                                 <div class='person-detail'>
                                     <div class='arrow-bottom'></div>
@@ -41,7 +41,7 @@ namespace WebApplication1.xxvicongreso
                                    
                                 </div>
                                 <div class='person'>
-                                     <img class='img-responsive' src='img/member{0}.jpg' >
+                                     <img class='img-responsive' src='img/member{4}.jpg' >
                                  </div>
                             </div>";
 
@@ -56,10 +56,12 @@ namespace WebApplication1.xxvicongreso
                     tema = exp.Tema.Substring(0, 40) + "...";
                 }
                 string item = (i % 2 == 0) ? itemA : itemB;
-                html += string.Format(item, exp.GetPhoto(Server.MapPath("")),
+                html += string.Format(item, 
+                    exp.ID,
                     exp.Pais, 
                     exp.NombreCompleto,
-                    tema);
+                    tema, 
+                    exp.GetPhoto(Server.MapPath("")));
                 
                 i++;
                 if (i % 6 == 0)
