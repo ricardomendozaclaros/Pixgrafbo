@@ -16,6 +16,11 @@
         z-index: 1;
     }
 </style>
+<script>
+    function Redirect(id) {
+        document.location.href = "PeopleeDetails.aspx?Id=" + id;
+    }
+</script>
 <section class="team" id="Expositores">
     <div class="container">
         <div class="row">

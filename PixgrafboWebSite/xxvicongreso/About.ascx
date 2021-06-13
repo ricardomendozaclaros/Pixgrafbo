@@ -16,79 +16,80 @@
 
             <h4 style="text-align: justify">Muchas gracias por su asistencia y bienvenidos Al XXVI Congreso Nacional de Anestesiología 2021.
             </h4>
-            <h4 style="text-align: justify">Dra. Janett Jordan Crespo   <br />
-Presidente SBARD</h4>
-            
+            <h4 style="text-align: justify">Dra. Janett Jordan Crespo  
+                <br />
+                Presidente SBARD</h4>
+
 
             <img src="img/SBARD.png" />
-        </div>
+    </div>
 
-        <div class="row" id="Objetivos">
-            <br />
-            <br />
-            <br />
-            <h2>Objetivos</h2>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-about-detail clearfix">
-                    <div class="about-img">
-                        <img class="img-responsive" src="img/item1.jpg" alt="">
+    <div class="row" id="Objetivos">
+        <br />
+        <br />
+        <br />
+        <h2>Objetivos</h2>
+        <div class="col-md-4 col-sm-6">
+            <div class="single-about-detail clearfix">
+                <div class="about-img">
+                    <img class="img-responsive" src="img/item1.jpg" alt="">
+                </div>
+                <div class="about-details">
+                    <div class="pentagon-text">
+                        <h1>C</h1>
                     </div>
-                    <div class="about-details">
-                        <div class="pentagon-text">
-                            <h1>C</h1>
-                        </div>
-                        <h3>Manejo del sangrado en cirugía hepática</h3>
-                        <p>
-                            Durante este año se deben adquirir conocimientos teóricos y prácticos
+                    <h3>Manejo del sangrado en cirugía hepática</h3>
+                    <p>
+                        Durante este año se deben adquirir conocimientos teóricos y prácticos
 para el manejo peroperatorio del paciente pediátrico (cirugía pediátrica) y
 formación en la terapia del dolor agudo y crónico. Es al final de este último año, en donde el Residente con la incorporación de los conocimientos teóricos y
 prácticos en Anestesiología, Informática, Estadística y Metodología de la
 Investigación realiza su Monografía final de Postgrado
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-about-detail">
-                    <div class="about-img">
-                        <img class="img-responsive" src="img/item2.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="single-about-detail">
+                <div class="about-img">
+                    <img class="img-responsive" src="img/item2.jpg" alt="">
+                </div>
+                <div class="about-details">
+                    <div class="pentagon-text">
+                        <h1>V</h1>
                     </div>
-                    <div class="about-details">
-                        <div class="pentagon-text">
-                            <h1>V</h1>
-                        </div>
 
-                        <h3>Ventilación mecánica intraoperatoria</h3>
-                        <p>
-                            El Residente debe manejar con seguridad las distintas modalidades de
+                    <h3>Ventilación mecánica intraoperatoria</h3>
+                    <p>
+                        El Residente debe manejar con seguridad las distintas modalidades de
 anestesia regional, manejo de la vía aérea y monitorización. Dirigir anestesias
 de mayor complejidad (neurocirugía, cirugía cardíaca, anestesia fuera de sala
 de operaciones). Expandir su formación hacia las áreas de Emergencia y
 Cuidados Intensivos.
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-about-detail">
-                    <div class="about-img">
-                        <img class="img-responsive" src="img/item3.jpg" alt="">
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="single-about-detail">
+                <div class="about-img">
+                    <img class="img-responsive" src="img/item3.jpg" alt="">
+                </div>
+                <div class="about-details">
+                    <div class="pentagon-text">
+                        <h1>M</h1>
                     </div>
-                    <div class="about-details">
-                        <div class="pentagon-text">
-                            <h1>M</h1>
-                        </div>
-                        <h3>Manejo del sangrado en cirugía hepática</h3>
-                        <p>
-                            "Durante este año se deben adquirir conocimientos teóricos y prácticos
+                    <h3>Manejo del sangrado en cirugía hepática</h3>
+                    <p>
+                        "Durante este año se deben adquirir conocimientos teóricos y prácticos
 para el manejo peroperatorio del paciente pediátrico (cirugía pediátrica) y
 formación en la terapia del dolor agudo y crónico. Es al final de este último año, en donde el Residente con la incorporación de los conocimientos teóricos y
 prácticos en Anestesiología, Informática, Estadística y Metodología de la
 Investigación realiza su Monografía final de Postgrado"
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>

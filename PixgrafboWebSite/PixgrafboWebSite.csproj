@@ -239,6 +239,7 @@
     <Content Include="xxvicongreso\js\smoothscroll.js" />
     <Content Include="xxvicongreso\MapSection.ascx" />
     <Content Include="xxvicongreso\media\bolivia.mp4" />
+    <Content Include="xxvicongreso\PeopleeDetails.aspx" />
     <Content Include="xxvicongreso\Services.ascx" />
     <Content Include="xxvicongreso\Site1.Master" />
     <Content Include="xxvicongreso\Slider.ascx" />
@@ -289,6 +290,13 @@
     </Compile>
     <Compile Include="xxvicongreso\MapSection.ascx.designer.cs">
       <DependentUpon>MapSection.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="xxvicongreso\PeopleeDetails.aspx.cs">
+      <DependentUpon>PeopleeDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xxvicongreso\PeopleeDetails.aspx.designer.cs">
+      <DependentUpon>PeopleeDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="xxvicongreso\ReadOnlySpan.cs" />
     <Compile Include="xxvicongreso\Services.ascx.cs">

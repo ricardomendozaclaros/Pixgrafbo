@@ -14,7 +14,7 @@ namespace WebApplication1.xxvicongreso
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            Expositor[]  exps = Expositor.GetExpositores(Server.MapPath(""), "*");
+            List<Expositor> exps = Expositor.GetExpositores(Server.MapPath(""), "*");
 
             txt7_11.Text = DrawCell(exps[0]);
             txt7_12.Text = DrawCell(exps[3]);

@@ -1,14 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.xxvicongreso.Site1" %>
 
 <%@ Register Src="~/xxvicongreso/TopHeader.ascx" TagPrefix="uc1" TagName="TopHeader" %>
-<%@ Register Src="~/xxvicongreso/Slider.ascx" TagPrefix="uc1" TagName="Slider" %>
-<%@ Register Src="~/xxvicongreso/About.ascx" TagPrefix="uc1" TagName="About" %>
-<%@ Register Src="~/xxvicongreso/Services.ascx" TagPrefix="uc1" TagName="Services" %>
-<%@ Register Src="~/xxvicongreso/ContactSection.ascx" TagPrefix="uc1" TagName="ContactSection" %>
-<%@ Register Src="~/xxvicongreso/MapSection.ascx" TagPrefix="uc1" TagName="MapSection" %>
-<%@ Register Src="~/xxvicongreso/TeamSection.ascx" TagPrefix="uc1" TagName="TeamSection" %>
+
 <%@ Register Src="~/xxvicongreso/FooterSection.ascx" TagPrefix="uc1" TagName="FooterSection" %>
-<%@ Register Src="~/xxvicongreso/CountDown.ascx" TagPrefix="uc1" TagName="CountDown" %>
 
 <!DOCTYPE html>
 
@@ -41,38 +35,14 @@
 	<uc1:TopHeader runat="server" id="TopHeader" />
 	<!-- end of header area -->
 
-	<!-- ====================================================
-	slider section -->
-	<uc1:Slider runat="server" id="Slider" />
-	<!-- end of slider section -->
+	
 
+	
 
-	<!-- CountDown section -->
-    <uc1:CountDown runat="server" id="CountDown" />
-	<!-- end of CountDown section -->
-
-
-	<!-- about section -->
-    <uc1:About runat="server" id="About" />
-	<!-- end of about section -->
-
-
-	<!-- service section starts here -->
-	<uc1:Services runat="server" id="Services" />
-	<!-- end of service section -->
-
-
-	<!-- team section -->
-    <uc1:TeamSection runat="server" id="TeamSection" />
-	<!-- end of team section -->
-
-	<!-- map section -->
-    <uc1:MapSection runat="server" id="MapSection" />
-	<!-- end of map section -->
-
-	<!-- contact section starts here -->
-    <uc1:ContactSection runat="server" id="ContactSection" />
-	<!-- end of contact section -->
+    <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+     </form>
 
 	<!-- footer starts here -->
 	<uc1:FooterSection runat="server" id="FooterSection" />
@@ -85,9 +55,5 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/custom.js"></script>
 
-    <form id="form1" runat="server">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-     </form>
 </body>
 </html>

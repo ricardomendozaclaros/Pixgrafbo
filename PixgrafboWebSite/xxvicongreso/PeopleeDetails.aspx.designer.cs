@@ -11,44 +11,53 @@ namespace WebApplication1.xxvicongreso
 {
 
 
-    public partial class Index
+    public partial class PeopleeDetails
     {
 
         /// <summary>
-        /// Slider control.
+        /// imgPhoto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WebApplication1.xxvicongreso.Slider Slider;
+        protected global::System.Web.UI.WebControls.Image imgPhoto;
 
         /// <summary>
-        /// CountDown control.
+        /// txtNombreCompleto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WebApplication1.xxvicongreso.CountDown CountDown;
+        protected global::System.Web.UI.WebControls.Literal txtNombreCompleto;
 
         /// <summary>
-        /// About control.
+        /// txtTema control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WebApplication1.xxvicongreso.About About;
+        protected global::System.Web.UI.WebControls.Literal txtTema;
 
         /// <summary>
-        /// Services control.
+        /// imgFlag control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WebApplication1.xxvicongreso.Services Services;
+        protected global::System.Web.UI.WebControls.Image imgFlag;
+
+        /// <summary>
+        /// txtResumen control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal txtResumen;
 
         /// <summary>
         /// TeamSection control.
@@ -58,23 +67,5 @@ namespace WebApplication1.xxvicongreso
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::WebApplication1.xxvicongreso.TeamSection TeamSection;
-
-        /// <summary>
-        /// MapSection control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.MapSection MapSection;
-
-        /// <summary>
-        /// ContactSection control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.ContactSection ContactSection;
     }
 }
