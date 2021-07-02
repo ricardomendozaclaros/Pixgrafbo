@@ -38,7 +38,14 @@
             <br />
             <br />
             <br />
-            <img src="img/BannerPrecios.jpg" style="width: 80%" />
+
+            <table style="text-align:center">
+                <tr>
+                    <td> <img src="img/Poster-04.png" /></td>
+                    <td><img src="img/Poster-05.png" onclick="window.location.href='https://even2.app/anestesiologia'" /></td>
+                </tr>
+            </table>
+           
         </div>
     </div>
 </section>
