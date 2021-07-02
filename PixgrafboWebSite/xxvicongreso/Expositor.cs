@@ -21,7 +21,7 @@ namespace WebApplication1
         public string FechaHora { get; set; }
         public string Resumen { get; set; }
 
-        public static Expositor[] GetExpositores(string path)
+        public static List<Expositor> GetExpositores(string path)
         {
             string filename = path + "/data/expositores.json";
             StreamReader r = new StreamReader(filename, Encoding.Default, false);
@@ -30,16 +30,16 @@ namespace WebApplication1
             { 
                 DefaultValueHandling = DefaultValueHandling.Include
             };
-            Expositor[] exps = JsonConvert.DeserializeObject<Expositor[]>(jsonString, settings);
+            List<Expositor> exps = JsonConvert.DeserializeObject<List<Expositor>>(jsonString, settings);
             return exps;
         }
 
-        public static Expositor[] GetExpositores(string path, string resumen)
+        public static List<Expositor> GetExpositores(string path, string resumen)
         {
-            Expositor[] exps = GetExpositores(path);
+            List <Expositor> exps = GetExpositores(path);
             if (resumen.StartsWith("No Expositor"))
             {
-                exps = Array.FindAll(exps, c => c.Resumen != resumen);
+                exps =  exps.FindAll(c => c.Resumen != resumen);
             }
             return exps;
         }

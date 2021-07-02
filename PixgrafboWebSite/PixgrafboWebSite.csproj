@@ -192,6 +192,7 @@
     <Content Include="xxvicongreso\img\Colombia.gif" />
     <Content Include="xxvicongreso\img\Ecuador.gif" />
     <Content Include="xxvicongreso\img\Estados-Unidos.gif" />
+    <Content Include="xxvicongreso\img\favicon.png" />
     <Content Include="xxvicongreso\img\item1.jpg" />
     <Content Include="xxvicongreso\img\item2.jpg" />
     <Content Include="xxvicongreso\img\item3.jpg" />
@@ -213,6 +214,8 @@
     <Content Include="xxvicongreso\img\Paraguay.gif" />
     <Content Include="xxvicongreso\img\pattern.jpg" />
     <Content Include="xxvicongreso\img\Peru.gif" />
+    <Content Include="xxvicongreso\img\Poster-04.png" />
+    <Content Include="xxvicongreso\img\Poster-05.png" />
     <Content Include="xxvicongreso\img\qrWhatapp.png" />
     <Content Include="xxvicongreso\img\SBARD.png" />
     <Content Include="xxvicongreso\img\service1.png" />
@@ -239,6 +242,7 @@
     <Content Include="xxvicongreso\js\smoothscroll.js" />
     <Content Include="xxvicongreso\MapSection.ascx" />
     <Content Include="xxvicongreso\media\bolivia.mp4" />
+    <Content Include="xxvicongreso\PeopleeDetails.aspx" />
     <Content Include="xxvicongreso\Services.ascx" />
     <Content Include="xxvicongreso\Site1.Master" />
     <Content Include="xxvicongreso\Slider.ascx" />
@@ -289,6 +293,13 @@
     </Compile>
     <Compile Include="xxvicongreso\MapSection.ascx.designer.cs">
       <DependentUpon>MapSection.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="xxvicongreso\PeopleeDetails.aspx.cs">
+      <DependentUpon>PeopleeDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xxvicongreso\PeopleeDetails.aspx.designer.cs">
+      <DependentUpon>PeopleeDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="xxvicongreso\ReadOnlySpan.cs" />
     <Compile Include="xxvicongreso\Services.ascx.cs">

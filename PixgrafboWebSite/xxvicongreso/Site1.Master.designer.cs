@@ -33,78 +33,6 @@ namespace WebApplication1.xxvicongreso
         protected global::WebApplication1.xxvicongreso.TopHeader TopHeader;
 
         /// <summary>
-        /// Slider control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.Slider Slider;
-
-        /// <summary>
-        /// CountDown control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.CountDown CountDown;
-
-        /// <summary>
-        /// About control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.About About;
-
-        /// <summary>
-        /// Services control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.Services Services;
-
-        /// <summary>
-        /// TeamSection control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.TeamSection TeamSection;
-
-        /// <summary>
-        /// MapSection control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.MapSection MapSection;
-
-        /// <summary>
-        /// ContactSection control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.ContactSection ContactSection;
-
-        /// <summary>
-        /// FooterSection control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.FooterSection FooterSection;
-
-        /// <summary>
         /// form1 control.
         /// </summary>
         /// <remarks>
@@ -121,5 +49,14 @@ namespace WebApplication1.xxvicongreso
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+
+        /// <summary>
+        /// FooterSection control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::WebApplication1.xxvicongreso.FooterSection FooterSection;
     }
 }

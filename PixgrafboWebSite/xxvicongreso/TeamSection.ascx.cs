@@ -18,45 +18,50 @@ namespace WebApplication1.xxvicongreso
         {
             string html = string.Empty;
             
-            string itemA = @"<div class='col-md-2 single-member col-sm-4'>
-                                <div class='person'>
-                                    <img class='img-responsive' src='img/member{0}.jpg'>
-                                    
+            string itemA = @"<div class='col-md-2 single-member col-sm-4' onclick='Redirect({0})'>
+                                  <div class='person'>
+                                    <img class='img-responsive' src='img/member{4}.jpg'>
                                 </div>
                                 <div class='person-detail'>
                                     <div class='arrow-bottom'></div>
 <img src = 'img/{1}.gif'  class='bandera' style='width: 45px'/>
                                     <h3>{2}</h3>
                                     <p>{3}</p>
-                                    <p>{4}</p>
+                                   
                                 </div>
                             </div></a>";
 
-            string itemB = @"<div class='col-md-2 single-member col-sm-4'>
+            string itemB = @"<div class='col-md-2 single-member col-sm-4' onclick='Redirect({0})'>
                                 <div class='person-detail'>
                                     <div class='arrow-top'></div>
 <img src = 'img/{1}.gif'  class='bandera' style='width: 45px'/>
                                     <h3>{2}</h3>
  
                                     <p>{3}</p>
-                                    <p>{4}</p>
+                                   
                                 </div>
                                 <div class='person'>
-                                     <img class='img-responsive' src='img/member{0}.jpg' >
+                                     <img class='img-responsive' src='img/member{4}.jpg' >
                                  </div>
                             </div>";
 
-            Expositor[] exps = Expositor.GetExpositores(Server.MapPath(""), "No Expositor");
+            List<Expositor> exps = Expositor.GetExpositores(Server.MapPath(""), "No Expositor");
             
             int i = 0;
             foreach (var exp in exps)
             {
+                string tema = exp.Tema;
+                if (tema.Length > 40)
+                {
+                    tema = exp.Tema.Substring(0, 40) + "...";
+                }
                 string item = (i % 2 == 0) ? itemA : itemB;
-                html += string.Format(item, exp.GetPhoto(Server.MapPath("")),
+                html += string.Format(item, 
+                    exp.ID,
                     exp.Pais, 
                     exp.NombreCompleto,
-                    exp.Tema,
-                    exp.Resumen);
+                    tema, 
+                    exp.GetPhoto(Server.MapPath("")));
                 
                 i++;
                 if (i % 6 == 0)
