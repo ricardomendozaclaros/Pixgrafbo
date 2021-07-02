@@ -20,6 +20,13 @@
     function Redirect(id) {
         document.location.href = "PeopleeDetails.aspx?Id=" + id;
     }
+
+    function GotoPayPlatform() {
+        window.open(
+            'https://even2.app/anestesiologia',
+            '_blank' // <- This is what makes it open in a new window.
+        );
+    }
 </script>
 <section class="team" id="Expositores">
     <div class="container">
@@ -42,7 +49,7 @@
             <table style="text-align:center">
                 <tr>
                     <td> <img src="img/Poster-04.png" /></td>
-                    <td><img src="img/Poster-05.png" onclick="window.location.href='https://even2.app/anestesiologia'" /></td>
+                    <td><img src="img/Poster-05.png" onclick="GotoPayPlatform()" /></td>
                 </tr>
             </table>
            
