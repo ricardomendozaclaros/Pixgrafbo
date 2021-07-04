@@ -24,10 +24,10 @@ namespace WebApplication1
         public static List<Expositor> GetExpositores(string path)
         {
             string filename = path + "/data/expositores.json";
-            StreamReader r = new StreamReader(filename, Encoding.Default, false);
+            StreamReader r = new StreamReader(filename, Encoding.UTF8, false);
             string jsonString = r.ReadToEnd();
-            JsonSerializerSettings settings = new JsonSerializerSettings 
-            { 
+            JsonSerializerSettings settings = new JsonSerializerSettings
+            {
                 DefaultValueHandling = DefaultValueHandling.Include
             };
             List<Expositor> exps = JsonConvert.DeserializeObject<List<Expositor>>(jsonString, settings);

@@ -51,7 +51,7 @@ namespace WebApplication1.xxvicongreso
             foreach (var exp in exps)
             {
                 string tema = exp.Tema;
-                if (tema.Length > 40)
+                if ((!String.IsNullOrEmpty(tema)) && (tema.Length > 40))
                 {
                     tema = exp.Tema.Substring(0, 40) + "...";
                 }

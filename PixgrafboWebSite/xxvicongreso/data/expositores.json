@@ -1,283 +1,228 @@
-[
-  {
-    "ID": 1,
-    "NombreCompleto": "Dr. Gabriel Mancera ElÌas",
-    "Telefono": "",
-    "Correo": "elimanga81medicina@gmail.com",
-    "Pais": "Mexico",
-    "Tema": "Emergencias en anestesia pedi·trica",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 2,
-    "NombreCompleto": "Dr. Hugo Arturo Olmos P.",
-    "Telefono": "",
-    "Correo": "hugo.olmos@imss.gob.mx",
-    "Pais": "Mexico",
-    "Tema": "Anestesia regional en PediatrÌa",
-    "FechaHora": "19:30 ñ 20:00",
-    "Resumen": "Anestesiologia pediatrica. - Felou en Madrid hospital de La Paz Neuroanesteiso 2013. - Cardio anestesiÛ 2014. - Felou en Berlin cirugÌa Pediatrica traum·tica 2015. - Jefe de de quirÛfanos de la unidad mÈdica de alta especialidad hospital de pediatrÌa. - Centro mÈdico nacional de occidente Guadalajara Jalisco."
-  },
-  {
-    "ID": 3,
-    "NombreCompleto": "Dra. Nanci Esqueda D.",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Mexico",
-    "Tema": "ColocaciÛn de catÈter central en PediatrÌa con ultrasonido",
-    "FechaHora": "20:00 ñ 20:30",
-    "Resumen": "Adscrita UMAE Hospital de PediatrÌa.- Adscrita Instituto Nacional de RehabilitaciÛn LGII.- Especialidad en AnestesiologÌa Centro MÈdico ABC.- AnestesiologÌa Pedi·trica CMN SXXI.- Alta Especialidad en Anestesia Regional, INR LGII.- Profesor en el Diplomado EcografÌa CrÌtica Head To Toe."
-  },
-  {
-    "ID": 4,
-    "NombreCompleto": "Dr. Renato Moreno",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Peru",
-    "Tema": "Anestesia en Paciente Preeclamptica",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": "Especialista en AnestesiologÌa. - AnestesiÛlogo del Instituto Nacional Materno Perinatal de Lima Per˙.- Fellowship WFSA de Anestesia ObstÈtrica de la ClÌnica Universitaria Bolivariana, Medellin Colombia. - Coordinador del capÌtulo de Anestesia ObstÈtrica de la Sociedad Peruana de Anestesia, Analgesia y ReanimaciÛn SPAAR."
-  },
-  {
-    "ID": 5,
-    "NombreCompleto": "Dr. Pablo Santill·n",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Ecuador",
-    "Tema": "Recomendaciones actuales en el uso de uterotÛnicos",
-    "FechaHora": "19:30 ñ 20:00",
-    "Resumen": "Especialista en AnestesiologÌa. - Fellowship en Anestesia obstÈtrica en embarazo de alto riesgo INPER, UNAM MÈxico. - Instructor de simulaciÛn en Center for Medical Simulation Insimed, Colombia. - Instructor EVaLa CLASA. - Profesor de c·tedra de Anestesia ObstÈtrica, Universidad CatÛlica de Ecuador y Universidad Central del Ecuador. - Instructor MFLS con la fundaciÛn Latinoamericana de Medicina Materno Fetal. - Instructor SUMAR, Supervivencia materna en MÈxico."
-  },
-  {
-    "ID": 6,
-    "NombreCompleto": "Dr. Mauricio Vasco",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Colombia",
-    "Tema": "Protocolo ERAS en cirugÌa ces·rea",
-    "FechaHora": "20:00 ñ20:30",
-    "Resumen": "Especialista en AnestesiologÌa, cuidados intensivos y reanimaciÛn. - Estancia formativa de Anestesia ObstÈtrica en el Hospital Clinic de Barcelona EspaÒa. -Scolarship en SimulaciÛn mÈdica del Center of Medical Simulation STRATUS, centro adscrito al Brigham and Womans Hospital. HARVARD MEDICAL SCHOOL, USA. - Docente y Jefe de simulaciÛn clÌnica en facultad de medicina de Universidad CES en Medellin Colombia. - Coordinador de la comisiÛn de Anestesia ObstÈtrica CLASA."
-  },
-  {
-    "ID": 7,
-    "NombreCompleto": "Dr. Milton Chango",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Ecuador",
-    "Tema": "Protocolo ERAS en cirugÌa cardiaca electiva: de la TeorÌa a la Practica.",
-    "FechaHora": "19:00 ñ19:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 8,
-    "NombreCompleto": "Dra. Carolina Cabrera",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Chile",
-    "Tema": "EvaluaciÛn y manejo hemodin·mico con ecocardiografÌa",
-    "FechaHora": "19:30 ñ 20:00",
-    "Resumen": ""
-  },
-  {
-    "ID": 9,
-    "NombreCompleto": "Dra. Natalia Erazo",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Colombia",
-    "Tema": "Monitoreo hemodin·mico invasivo para toma de decisiones",
-    "FechaHora": "20:00 ñ 20:30",
-    "Resumen": "Anestesiologia Universidad de Guadalajara  (Mexico) - Fellow Anestesiologia Cardiovascular Centro MÈdico del Alta Especialidad de occidente Guadalajara Mexico - Anestesiologa en Hospital Universitario Departamental de NariÒo (Colombia). - Anestesiologa en FundaciÛn Hospital San Pedro (Colombia) - Profesor de Anestesiologia Universidad de NariÒo (Colombia)"
-  },
-  {
-    "ID": 10,
-    "NombreCompleto": "Dr. Erwing Seborga",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Bloqueo Supra e infraclavicular para cirugÌa de miembro superior",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 11,
-    "NombreCompleto": "Dr. Miguel Arratia",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Bloqueo PENG (Pericapsular Nerve Group) para cirugÌa de cadera",
-    "FechaHora": "19:30 ñ 20:00",
-    "Resumen": ""
-  },
-  {
-    "ID": 12,
-    "NombreCompleto": "Dr. Johann Maldonado",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Bloqueo IPACK (Infiltration between popliteal Artery and capsule of the Knee) y canal aductor para cirugÌa de rodilla",
-    "FechaHora": "20:00 ñ 20:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 13,
-    "NombreCompleto": "Dr. Julio Ramos",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Bloqueo ESP (Erector spine block)",
-    "FechaHora": "20:30 ñ21:00",
-    "Resumen": ""
-  },
-  {
-    "ID": 14,
-    "NombreCompleto": "Dra. Aline Nieto",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Mexico",
-    "Tema": "TIVA Manual",
-    "FechaHora": "19:00 ñ19:30",
-    "Resumen": "Maestra en ciencias de salud - MÈdico anestesiÛlogo adscrito al Hospital de PediatrÌa Centro MÈdico Nacional Siglo XXI Ciudad de MÈxico - Diplomado en ultrasonografÌa crÌtica - Miembro TIVA AmÈrica y TIVA MÈxico"
-  },
-  {
-    "ID": 15,
-    "NombreCompleto": "Dr. Juan Camilo",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Colombia",
-    "Tema": "TIVA y Uso de la app",
-    "FechaHora": "19:30 ñ20:00",
-    "Resumen": "MÈdico AnestesiÛlogo de la Universidad del Valle. - AnestesiÛlogo en Hospital Universitario del Valle, en el programa de analgesia del parto, hemodinamia y cirugÌas de mediana a alta complejidad. - Miembro del grupo desarrollador de la aplicaciÛn iTIVA creada por Dr. David Ramirez."
-  },
-  {
-    "ID": 16,
-    "NombreCompleto": "Dr. David RamÌrez",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Colombia",
-    "Tema": "TIVA y Uso de la app",
-    "FechaHora": "20:00 ñ 20:30",
-    "Resumen": "MÈdico y cirujano - Universidad del Valle, AnestesiÛlogo - Universidad del Valle, AnestesiologÌa cardiovascular y tor·cica - Universidad del Bosque. - Anestesiologo institucional FundaciÛn Valle del Lili. Creador de la App iTIVA para simular anestÈsicos intravenosos."
-  },
-  {
-    "ID": 17,
-    "NombreCompleto": "Dr. David RamÌrez",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Colombia",
-    "Tema": "TIVA y Uso de la app",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 18,
-    "NombreCompleto": "Dr. AgustÌn Querejazu",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Trauma PediatrÌa",
-    "FechaHora": "19:30 ñ 20:00",
-    "Resumen": ""
-  },
-  {
-    "ID": 19,
-    "NombreCompleto": "Dr. Alberto Laporte",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Chile",
-    "Tema": "Trauma Raquimedular",
-    "FechaHora": "20:00 ñ 20:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 20,
-    "NombreCompleto": "Dr. Jorge Molina",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Bloqueos para cirugÌa de mama y pared tor·cica (PECs Block)",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 21,
-    "NombreCompleto": "Dra.Yovana Callisaya",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Bloqueo cuadrado lumbar (QL Block) vs Bloqueo de plexo lumbar",
-    "FechaHora": "19:30 ñ 20:00",
-    "Resumen": ""
-  },
-  {
-    "ID": 22,
-    "NombreCompleto": "Dr. Carlos Urquidi",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Anestesia Regional aplicada al manejo de dolor agudo",
-    "FechaHora": "20:00 ñ 20:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 23,
-    "NombreCompleto": "Dra.Patricia Caracila",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Uso de coadyuvantes en Bloqueos nerviosos perifÈricos",
-    "FechaHora": "20:30 ñ 21:00",
-    "Resumen": ""
-  },
-  {
-    "ID": 24,
-    "NombreCompleto": "Dra. Jordan",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "TIVA \n SIMULACIONES ø? (Dra. Jordan)",
-    "FechaHora": "19:00 ñ19:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 25,
-    "NombreCompleto": "Karla Salinas",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "ARRITMIAS EN EL TRANSOPERATORIO",
-    "FechaHora": "19:00 ñ19:30",
-    "Resumen": ""
-  },
-  {
-    "ID": 26,
-    "NombreCompleto": "Regional SENSAR",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "AVENTHO (VMNI, VMI)",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": "No Expositor"
-  },
-  {
-    "ID": 27,
-    "NombreCompleto": "",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Temas Libres",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": "No Expositor"
-  },
-  {
-    "ID": 28,
-    "NombreCompleto": "",
-    "Telefono": "",
-    "Correo": "",
-    "Pais": "Bolivia",
-    "Tema": "Temas Libres",
-    "FechaHora": "19:00 ñ 19:30",
-    "Resumen": "No Expositor"
-  }
-
-]
+Ôªø [
+    {
+      "ID": "1",
+      "NombreCompleto": "Dr. Gabriel Mancera El√≠as (M√©xico)",
+      "Correo": "elimanga81medicina@gmail.com",
+      "Pais": "Mexico",
+      "Tema": "Emergencias en anestesia pedi√°trica",
+      "FechaHora": "19:00 ‚Äì19:30",
+      "Resumen": "M√©dico Adscrito al departamento de Anestesiolog√≠a Instituto Nacional de Pediatr√≠a&#10;Ex profesor titular del curso universitario de Anestesiolog√≠a Pedi√°trica Instituto Nacional de Pediatr√≠a&#10;Ex presidente Sociedad Mexicana de Anestesiolog√≠a Pedi√°trica&#10;Revisor de la revista mexicana de anestesiolog√≠a del Colegio Mexicano de Anestesiolog√≠a&#10;"
+    },
+    {
+      "ID": "2",
+      "NombreCompleto": "Dr. Hugo Arturo Olmos P.",
+      "Correo": "hugo.olmos@imss.gob.mx",
+      "Pais": "Mexico",
+      "Tema": "Anestesia regional en Pediatr√≠a",
+      "FechaHora": "19:30 ‚Äì20:00",
+      "Resumen": "Anestesiologia pediatrica &#10;Felou en Madrid hospital de La Paz Neuroanesteiso 2013&#10;Cardio anestesi√≥ 2014&#10;Felou en Berlin cirug√≠a Pediatrica traum√°tica 2015&#10;Jefe de de quir√≥fanos de la unidad m√©dica de alta especialidad hospital de pediatr√≠a &#10;Centro m√©dico nacional de occidente Guadalajara Jalisco&#10;"
+    },
+    {
+      "ID": "3",
+      "NombreCompleto": "Dra. Nanci Esqueda Dorantes",
+      "Pais": "Mexico",
+      "Tema": "Colocaci√≥n de cat√©ter central en Pediatr√≠a con ultrasonido",
+      "FechaHora": "20:00 ‚Äì20:30",
+      "Resumen": "Adscrita UMAE Hospital de Pediatr√≠a.&#10;Adscrita Instituto Nacional de Rehabilitaci√≥n LGII.&#10;Especialidad en Anestesiolog√≠a Centro M√©dico ABC.&#10;Anestesiolog√≠a Pedi√°trica CMN SXXI.&#10;Alta Especialidad en Anestesia Regional, INR LGII.&#10;Profesor en el Diplomado Ecograf√≠a Cr√≠tica Head To Toe.&#10;",
+      "undefined": " "
+    },
+    {
+      "ID": "4",
+      "NombreCompleto": "Dr. Renato Moreno",
+      "Pais": "Per√∫",
+      "Tema": "Anestesia en Paciente Preeclamptica",
+      "FechaHora": "19:00 ‚Äì19:30",
+      "Resumen": "Especialista en Anestesiolog√≠a.&#10;Anestesi√≥logo del Instituto Nacional Materno Perinatal de Lima Per√∫.&#10;Fellowship WFSA de Anestesia Obst√©trica de la Cl√≠nica Universitaria Bolivariana, Medellin Colombia.&#10;Coordinador del cap√≠tulo de Anestesia Obst√©trica de la Sociedad Peruana de Anestesia, Analgesia y Reanimaci√≥n SPAAR.&#10;"
+    },
+    {
+      "ID": "5",
+      "NombreCompleto": "Dr. Pablo Santill√°n",
+      "Pais": "Ecuador",
+      "Tema": "Recomendaciones actuales en el uso de uterot√≥nicos",
+      "FechaHora": "19:30 ‚Äì20:00",
+      "Resumen": "Especialista en Anestesiolog√≠a.&#10;Fellowship en Anestesia obst√©trica en embarazo de alto riesgo INPER, UNAM M√©xico.&#10;Instructor de simulaci√≥n en Center for Medical Simulation Insimed, Colombia.&#10;Instructor EVaLa CLASA.&#10;Profesor de c√°tedra de Anestesia Obst√©trica, Universidad Cat√≥lica de Ecuador y Universidad Central del Ecuador.&#10;Instructor MFLS con la fundaci√≥n Latinoamericana de Medicina Materno Fetal.&#10;Instructor SUMAR, Supervivencia materna en M√©xico.&#10;"
+    },
+    {
+      "ID": "6",
+      "NombreCompleto": "Dr. Mauricio Vasco",
+      "Pais": "Colombia",
+      "Tema": "Protocolo ERAS en cirug√≠a ces√°rea",
+      "FechaHora": "20:00 ‚Äì20:30",
+      "Resumen": "Especialista en Anestesiolog√≠a, cuidados intensivos y reanimaci√≥n.&#10;Estancia formativa de Anestesia Obst√©trica en el Hospital Clinic de Barcelona Espa√±a.&#10;Scolarship en Simulaci√≥n m√©dica del Center of Medical Simulation STRATUS, centro adscrito al Brigham and Womans Hospital. HARVARD MEDICAL SCHOOL, USA.&#10;Docente y Jefe de simulaci√≥n cl√≠nica en facultad de medicina de Universidad CES en Medellin Colombia.&#10;Coordinador de la comisi√≥n de Anestesia Obst√©trica CLASA.&#10;"
+    },
+    {
+      "ID": "7",
+      "NombreCompleto": "Dr. Milton Chango",
+      "Pais": "Ecuador",
+      "Tema": "Protocolo ERAS en cirug√≠a cardiaca electiva: de la Teor√≠a a la Practica.",
+      "FechaHora": "19:00 ‚Äì19:30",
+      "Resumen": "Especialista en Anestesiolog√≠a en la Universidad Central del Ecuador. ‚Ä¢ Master en Gerencia y Planificaci√≥n Estrat√©gica en Salud.  ‚Ä¢ Subespecialidad en Anestesia Cardiovascular en el Instituto de Cardiolog√≠a  Dante Pazzanese Sao Paulo Brasil. ‚Ä¢ Profesor Titular de la C√°tedra de Anestesiolog√≠a de la Escuela de Medicina  de la Universidad Central del Ecuador.  &#10;‚Ä¢ Profesor de Anestesia Card√≠aca del Postgrado de Anestesiolog√≠a de la  Universidad Central del Ecuador.  &#10;‚Ä¢ Anestesi√≥logo del Hospital Eugenio Espejo. Quito ‚Äì Ecuador  ‚Ä¢ Anestesi√≥logo del Hospital Vozandes. Quito ‚Äì Ecuador. ‚Ä¢ Pas Presidente de la Sociedad Ecuatoriana de Anestesiolog√≠a (2016 -2019) ‚Ä¢ Autor y Coautor de "
+    },
+    {
+      "ID": "8",
+      "NombreCompleto": "Dra. Carolina Cabrera",
+      "Pais": "Chile",
+      "Tema": "Evaluaci√≥n y manejo hemodin√°mico con ecocardiograf√≠a",
+      "FechaHora": "19:30 ‚Äì20:00"
+    },
+    {
+      "ID": "9",
+      "NombreCompleto": "Dra. Natalia Erazo",
+      "Pais": "Colombia",
+      "Tema": "Monitoreo hemodin√°mico invasivo para toma de decisiones",
+      "FechaHora": "20:00 ‚Äì20:30",
+      "Resumen": "Anestesiologia Universidad de Guadalajara  (Mexico)&#10;Fellow Anestesiologia Cardiovascular Centro M√©dico del Alta Especialidad de occidente Guadalajara Mexico&#10;Anestesiologa en Hospital Universitario Departamental de Nari√±o (Colombia)&#10;Anestesiologa en Fundaci√≥n Hospital San Pedro (Colombia)&#10;Profesor de Anestesiologia Universidad de Nari√±o (Colombia)&#10;"
+    },
+    {
+      "ID": "10",
+      "NombreCompleto": "Dr. Erwing Seborga",
+      "Pais": "Bolivia",
+      "Tema": "Bloqueo Supra e infraclavicular para cirug√≠a de miembro superior",
+      "FechaHora": "19:00 ‚Äì19:30"
+    },
+    {
+      "ID": "11",
+      "NombreCompleto": "Dr. Miguel Arratia",
+      "Pais": "Bolivia",
+      "Tema": "Bloqueo PENG (Pericapsular Nerve Group) para cirug√≠a de cadera",
+      "FechaHora": "19:30 ‚Äì20:00"
+    },
+    {
+      "ID": "12",
+      "NombreCompleto": "Dr. Johann Maldonado",
+      "Pais": "Bolivia",
+      "Tema": "Bloqueo IPACK (Infiltration between popliteal Artery and capsule of the Knee) y canal aductor para cirug√≠a de rodilla",
+      "FechaHora": "20:00 ‚Äì20:30"
+    },
+    {
+      "ID": "13",
+      "NombreCompleto": "Dr. Julio Ramos",
+      "Pais": "Bolivia",
+      "Tema": "Bloqueo ESP (Erector spine block)",
+      "FechaHora": "20:30 ‚Äì21:00"
+    },
+    {
+      "ID": "14",
+      "NombreCompleto": "Dra. Aline Nieto",
+      "Pais": "Mexico",
+      "Tema": "TIVA Manual",
+      "FechaHora": "19:00 ‚Äì19:30",
+      "Resumen": "Maestra en ciencias de salud &#10;M√©dico anestesi√≥logo adscrito al Hospital de Pediatr√≠a Centro M√©dico Nacional Siglo XXI Ciudad de M√©xico&#10;Diplomado en ultrasonograf√≠a cr√≠tica&#10;Miembro TIVA Am√©rica y TIVA M√©xico&#10;"
+    },
+    {
+      "ID": "15",
+      "NombreCompleto": "Dr. Juan Camilo",
+      "Pais": "Colombia",
+      "Tema": "TIVA y Uso de la app&#10;",
+      "FechaHora": "19:30 ‚Äì20:00",
+      "Resumen": "M√©dico Anestesi√≥logo de la Universidad del Valle.&#10;Anestesi√≥logo en Hospital Universitario del Valle, en el programa de analgesia del parto, hemodinamia y cirug√≠as de mediana a alta complejidad.&#10;Miembro del grupo desarrollador de la aplicaci√≥n iTIVA creada por Dr. David Ramirez.&#10;"
+    },
+    {
+      "ID": "16",
+      "NombreCompleto": "Dr. David Ram√≠rez",
+      "Pais": "Colombia",
+      "Tema": "TIVA y Uso de la app&#10;",
+      "FechaHora": "20:00 ‚Äì20:30",
+      "Resumen": "M√©dico y cirujano - Universidad del Valle, Anestesi√≥logo - Universidad del Valle, Anestesiolog√≠a cardiovascular y tor√°cica - Universidad del Bosque.&#10;Anestesiologo institucional Fundaci√≥n Valle del Lili.&#10;Creador de la App iTIVA para simular anest√©sicos intravenosos.&#10;"
+    },
+    {
+      "ID": "17",
+      "NombreCompleto": "Dr. David Ram√≠rez",
+      "Pais": "Colombia",
+      "Tema": "TIVA y Uso de la app ",
+      "FechaHora": "19:00 ‚Äì19:30"
+    },
+    {
+      "ID": "18",
+      "NombreCompleto": "Dr. Agust√≠n Querejazu",
+      "Pais": "Bolivia",
+      "Tema": "Trauma Pediatr√≠a&#10;",
+      "FechaHora": "19:30 ‚Äì20:00"
+    },
+    {
+      "ID": "19",
+      "NombreCompleto": "Dr. Alberto Laporte",
+      "Pais": "Chile",
+      "Tema": "Trauma Raquimedular&#10;",
+      "FechaHora": "20:00 ‚Äì20:30"
+    },
+    {
+      "ID": "20",
+      "NombreCompleto": "Dr. Jorge Molina",
+      "Pais": "Bolivia",
+      "Tema": "Bloqueos para cirug√≠a de mama y pared tor√°cica (PECs Block)&#10;",
+      "FechaHora": "19:00 ‚Äì19:30"
+    },
+    {
+      "ID": "21",
+      "NombreCompleto": "Dra Yovana Callisaya",
+      "Pais": "Bolivia",
+      "Tema": "Bloqueo cuadrado lumbar (QL Block) vs Bloqueo de plexo lumbar&#10;",
+      "FechaHora": "19:30 ‚Äì20:00"
+    },
+    {
+      "ID": "22",
+      "NombreCompleto": "Dr. Carlos Urquidi",
+      "Pais": "Bolivia",
+      "Tema": "Anestesia Regional aplicada al manejo de dolor agudo&#10;",
+      "FechaHora": "20:00 ‚Äì20:30"
+    },
+    {
+      "ID": "23",
+      "NombreCompleto": "Dra Patricia Caracila",
+      "Pais": "Bolivia",
+      "Tema": "Uso de coadyuvantes en Bloqueos nerviosos perif√©ricos&#10;",
+      "FechaHora": "20:30 ‚Äì21:00"
+    },
+    {
+      "ID": "23",
+      "NombreCompleto": "Dra. Jordan",
+      "Pais": "Bolivia",
+      "Tema": "TIVA &#10; SIMULACIONES ¬ø? (Dra. Jordan)",
+      "FechaHora": "19:00 ‚Äì19:30"
+    },
+    {
+      "ID": "23",
+      "NombreCompleto": "Karla Salinas",
+      "Pais": "Bolivia",
+      "Tema": "ARRITMIAS EN EL TRANSOPERATORIO&#10;  (Karla Salinas)",
+      "FechaHora": "19:00 ‚Äì19:30"
+    },
+    {
+      "ID": "23",
+      "NombreCompleto": "Regional SENSAR",
+      "Pais": "Bolivia",
+      "Tema": "AVENTHO (VMNI, VMI)&#10;",
+      "FechaHora": "19:00 ‚Äì19:30"
+    },
+    {
+      "ID": "24",
+      "NombreCompleto": "Dr Nerio Bracho Uzc√°tegui",
+      "Pais": "Venezuela",
+      "Resumen": "M√©dico Anestesi√≥logo, egresado de la Universidad Central de Venezuela. &#10;Past President de la Sociedad Venezolana de Anestesiolog√≠a. &#10;Representante del programa Primary Trauma Care de la Federaci√≤n Mundial de Sociedades de Anestesiolog√≠a&#10;Presidente del Cap√≠tulo de Trauma de la Confederaci√≥n Latinoamericana de Sociedades da Anestesiolog√¨a ( CLASA )&#10;"
+    },
+    {
+      "ID": "25",
+      "NombreCompleto": "Dra. DIANA ELIZABETH CHANGO CHASI",
+      "Pais": "Ecuador",
+      "Resumen": "M√©dico Anestesi√≥loga de la Universidad Central del Ecuador&#10;Certificaci√≥n en Anestesia Regional y Dolor de la Universidad CES Medellin ‚Äì Colombia.&#10;Diploma Superior en AdministracioÃÅn de los Servicios de la Salud. &#10;Miembro de la Sociedad Ecuatoriana de Anestesiologia.&#10;Miembro de la Sociedad Latinoamericana de Anestesia Regional.&#10;Anestesi√≥loga del Hospital Metropolitano de la ciudad de Quito ‚Äì Ecuador.&#10;M√©dico Anestesi√≥logo, egresado de la Universidad Central de Venezuela. "
+    },
+    {
+      "ID": "26",
+      "NombreCompleto": "Dra. Erika Fabiola Cruz",
+      "Pais": "Mexico",
+      "Resumen": "M√©dico Cirujano&#10;Facultad de Medicina &#10;Universidad Nacional Aut√≥noma de M√©xico &#10;Anestesi√≥loga con Menci√≥n Honor√≠fica (UNAM)&#10;Hospital Central Sur de Alta Especialidad PEMEX &#10;Neuroanestesi√≥loga&#10;Instituto Nacional de Neurologia y Neurocirug√≠a \"Manuel Velasco Su√°rez\" avalado por UNAM&#10;Miembro del Colegio Mexicano de Anestesiolog√≠a A.C&#10;Miembro de la Sociedad Mexicana De Neuroanestesiolog√≠a.&#10;Miembro del Colegio de Anestesiologos del estado de Nuevo Le√≥n."
+    },
+    {
+      "ID": "27",
+      "NombreCompleto": "Dra. Maria Claudia Ni√±o de Mejia",
+      "Pais": "Colombia",
+      "Resumen": "M√©dica Cirujana de la Pontificia Universidad Javeriana&#10;Anestesi√≥loga de la Universidad del Rosario&#10;Intensivista de la Fundaci√≥n Universitaria de Ciencias de la Salud&#10;Neuro anestesiolog√≠a del Hospital Karolinska de Estocolmo&#10;Diplomado de Calidad Seis Sigma&#10;Jefe de la Secci√≥n de Neuroanestesia y de Evaluaci√≥n Perioperatoria del Hospital Universitario Fundaci√≥n Santa f√© de Bogot√° (HUFSFB)&#10;Jefe del Programa de fellow en neuroanestesia del HUFSFB (√∫nico programa acreditado en latinoam√©rica por INternational Council of Perioperative Neuroscience Training (ICPNT)&#10;Profesora de las Universidad de los Andes&#10;Profesora de la Universidad El Bos"
+    },
+    {
+      "ID": "28",
+      "NombreCompleto": "Dra. Maria Carolina Cabrera Schulmeyer",
+      "Pais": "Chile",
+      "Resumen": "Universidad de Valpara√≠so (1994 ‚Äì 1998)&#10;Especializaci√≥n en Anestesiolog√≠a y Reanimaci√≥n&#10;Royal Postgraduate Medical  School, Hammersmith Hospital, Londres Inglaterra  (1996-1997)&#10;Entrenamiento y certificaci√≥n en Ecocardiograf√≠a transtor√°cica y Transesof√°gica &#10;Northwick Park and St.Mark‚Äôs Hospital, Londres, Inglaterra (1996-1997)&#10;Entrenamiento como residente de anestesiolog√≠a y en Unidad de cuidado intensivo&#10;Royal Postgraduate Medical  School, Hammersmith Hospital, Londres Inglaterra  (Junio 2011)&#10;Entrenamiento en ecocardiograf√≠a intraoperatoria tridimensional &#10;Profesora Titular Universidad de Valpara√≠so&#10;Editora Jefe Revista chilena de anestesia (2018 a la fecha)&#10;Miembro Activo de Sociedad Chilena de Anestesiolog√≠a, miembro del directorio de Sociedad Chilena de Anestesiolog√≠a como tesorera en el periodo 2007 ‚Äì 2009&#10;MIEMBRO DEL COMIT√â CIENT√çFICO PERMANENTE DE LA SOCIEDAD CHILENA DE ANESTESIOLOG√çA&#10;Miembro Activo de Sociedad Chilena del Dolor&#10;Miembro activo de la Sociedad Europea de Anestesiolog√≠a (ESA)&#10;Miembro honorario de la Sociedad de anestesiolog√≠a del Atl√°ntico&#10;Miembro del comit√© organizador del congreso mundial de anestesiolog√≠a 2012&#10;REVISOR EXTERNO DE REVISTA ESPA√ëOLA DE ANESTESIOLOG√çA&#10;REVISOR EXTERNO DE REVISTA M√âDICA DE CHILE&#10;\"Ecocardiograf√≠a b√°sica intraoperatoria\"&#10;Autora: Dra. Mar√≠a Carolina Cabrera Schulmeyer, Editorial Universidad de Valpara√≠so. Primera edici√≥n Octubre 2010. Segunda edici√≥n agosto del 2012&#10;\"Ecocardiograf√≠a perioperatoria\" eBook Agosto 2014"
+    }
+  ]
