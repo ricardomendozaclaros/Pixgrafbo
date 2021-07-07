@@ -24,7 +24,7 @@
 
 
     <!-- about section -->
-  <%--  <uc1:About runat="server" ID="About" />--%>
+    <%--  <uc1:About runat="server" ID="About" />--%>
     <!-- end of about section -->
 
 
@@ -44,5 +44,17 @@
     <!-- contact section starts here -->
     <uc1:ContactSection runat="server" ID="ContactSection" />
     <!-- end of contact section -->
+    <div>
+        <!-- Contador de visitas -->
+        <center>
+            <a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+                <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=300615"></a><br>
+            <a href='http://www.websmultimedia.com/contador-de-visitas-gratis'></a>
+            <br>
+            <a href='http://jackrussell.es'></a>
+        </center>
+        <!-- Fin Contador de visitas -->
 
+
+    </div>
 </asp:Content>
