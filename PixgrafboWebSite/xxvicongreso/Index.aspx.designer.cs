@@ -33,15 +33,6 @@ namespace WebApplication1.xxvicongreso
         protected global::WebApplication1.xxvicongreso.CountDown CountDown;
 
         /// <summary>
-        /// About control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.xxvicongreso.About About;
-
-        /// <summary>
         /// Services control.
         /// </summary>
         /// <remarks>

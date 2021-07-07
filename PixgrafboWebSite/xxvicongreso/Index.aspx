@@ -14,35 +14,35 @@
 
     <!-- ====================================================
 	slider section -->
-	<uc1:Slider runat="server" id="Slider" />
-	<!-- end of slider section -->
+    <uc1:Slider runat="server" ID="Slider" />
+    <!-- end of slider section -->
 
 
-	<!-- CountDown section -->
-    <uc1:CountDown runat="server" id="CountDown" />
-	<!-- end of CountDown section -->
+    <!-- CountDown section -->
+    <uc1:CountDown runat="server" ID="CountDown" />
+    <!-- end of CountDown section -->
 
 
-	<!-- about section -->
-    <uc1:About runat="server" id="About" />
-	<!-- end of about section -->
+    <!-- about section -->
+  <%--  <uc1:About runat="server" ID="About" />--%>
+    <!-- end of about section -->
 
 
-	<!-- service section starts here -->
-	<uc1:Services runat="server" id="Services" />
-	<!-- end of service section -->
+    <!-- service section starts here -->
+    <uc1:Services runat="server" ID="Services" />
+    <!-- end of service section -->
 
 
-	<!-- team section -->
-    <uc1:TeamSection runat="server" id="TeamSection" />
-	<!-- end of team section -->
+    <!-- team section -->
+    <uc1:TeamSection runat="server" ID="TeamSection" />
+    <!-- end of team section -->
 
-	<!-- map section -->
-    <uc1:MapSection runat="server" id="MapSection" />
-	<!-- end of map section -->
+    <!-- map section -->
+    <uc1:MapSection runat="server" ID="MapSection" />
+    <!-- end of map section -->
 
-	<!-- contact section starts here -->
-    <uc1:ContactSection runat="server" id="ContactSection" />
-	<!-- end of contact section -->
+    <!-- contact section starts here -->
+    <uc1:ContactSection runat="server" ID="ContactSection" />
+    <!-- end of contact section -->
 
 </asp:Content>
