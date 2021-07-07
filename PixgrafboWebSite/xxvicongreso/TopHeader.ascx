@@ -27,7 +27,7 @@
 								<li><a class="menu" href="index.aspx#Calendario">Calendario</a></li>
 								<li><a class="menu" href="index.aspx#Expositores">Expositores</a></li>
 								<li><a class="menu" href="index.aspx#Contactenos">Contactenos</a></li>
-								<li><a class="menu" href="https://even2.app/anestesiologia/" target="_blank">Inscribete</a></li>
+								<li><a class="menu" href="https://even2.app/anestesiologia/" target="_blank">Ingresa</a></li>
 							</ul>
 					    </div><!-- /navbar-collapse -->
 					  </div><!-- / .container-fluid -->
